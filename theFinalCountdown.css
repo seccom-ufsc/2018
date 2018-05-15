@@ -1,0 +1,152 @@
+// ========================== //
+// 2017 Countdown CSS
+// ========================== //
+
+body {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  font-family: helvetica;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    165deg, 
+    rgba(194, 233, 221, 0.5) 3%,
+    rgba(104, 119, 132, 0.5) 100%);
+}
+
+.countdown {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 75%;
+  max-width: 20rem;
+  margin: 0 auto;
+}
+
+.countdown__item {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 auto;
+  min-width: 31%;
+  margin-bottom: 1rem;
+
+// Instead of a modifier one could use a pseudo-class:
+//   &:first-child {
+//     width: 100%;
+//   }
+  
+//   &:not(:first-child) {
+//     flex: 1;
+//   }
+}
+
+.countdown__item--large {
+  flex: auto;
+  width: 100%;
+  font-size: 2.75em;
+}
+
+.countdown__timer {
+  padding: .25em;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.countdown__label {
+  font-size: 1em;
+  padding-top: .40em;
+  
+  .countdown__item--large & {
+    &:before,
+    &:after {
+      content: '';
+      display: block;
+      height: 1px;
+      background-image: linear-gradient(
+        left,
+        rgba(0, 0, 0, 0), 
+        rgba(0, 0, 0, .4),
+        rgba(0, 0, 0, 0));
+    }
+
+  }
+}
+
+
+
+
+// ========================== //
+// 2013 Countdown CSS
+// ========================== //
+
+// @import "compass/css3";
+// html {
+//     height: 100%;
+// }
+// body {
+//     display: flex;
+//     align-items: center;
+//     min-height: 100%;
+//     background-image: linear-gradient(165deg, rgba(194, 233, 221, 0.5) 3%, rgba(104, 119, 132, 0.5) 100%);
+//     text-align: center;
+//     font-family: helvetica;
+//     text-transform: uppercase;
+// }
+// .countdown {
+//     position: relative;
+//     top: 50%;
+//     display: block;
+//     height: auto;
+//     max-width: 35em;
+//     margin: 0 auto;
+//     input {
+//         text-transform: uppercase;
+//         text-align: center;
+//         font-family: helvetica;
+//         height: 1.25em;
+//         border: 1px solid black;
+//         font-weight: 700;
+//         font-size: 9.5rem;
+//         width: 80%;
+//         margin: 0 10px;
+//         @include border-radius(5px);
+//     }
+//     h3 {
+//         font-size: 5.0rem;
+//         font-weight: 700;
+//         letter-spacing: 5px;
+//         margin: -30px;
+//     }
+//     .bottom_time input {
+//         padding: 2.0% 4.1%;
+//         display: inline-block;
+//         height: 1em;
+//         font-weight: 500;
+//         font-size: 2.5rem;
+//         color: black;
+//         width: 15.5%;
+//     }
+//     ul {
+//         padding: 0;
+//         margin: .5em 0;
+//         li {
+//             display: inline;
+//             font-weight: 500;
+//             padding: 0 11%;
+//         }
+//     }
+//     hr.soft {
+//         height: 1px;
+//         margin: 1.5em 0;
+//         background-image: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0)), color-stop(0.5, rgba(0, 0, 0, .4)), to(rgba(0, 0, 0, 0)));
+//         background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, .4), rgba(0, 0, 0, 0));
+//         background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, .4), rgba(0, 0, 0, 0));
+//         background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, .4), rgba(0, 0, 0, 0));
+//         background-image: linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, .4), rgba(0, 0, 0, 0));
+//         border: 0;
+//     }
+// }
