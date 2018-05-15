@@ -5,3 +5,11 @@
 .dropdown-link {
   max-height: 100px;
 }
+
+.navbar {
+  background-color: yellow;
+}
+
+body {
+  background-color: green;
+}
