@@ -15,10 +15,6 @@ body {
     rgba(104, 119, 132, 0.5) 100%);
 }
 
-.logo {
-  max-height: 40px;
-}
-
 .countdown {
   display: flex;
   flex-wrap: wrap;
