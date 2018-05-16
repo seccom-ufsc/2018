@@ -11,5 +11,8 @@
 }
 
 body {
-  background-color: white;
+  background-image:url(https://raw.githubusercontent.com/ArthurPixels/SECCOM-2018/master/assets/logo-010.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+  //background-color: white;
 }
