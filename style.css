@@ -10,6 +10,10 @@
   background-color: lightgrey;
 }
 
+.container {
+  margin-top: 35px;
+}
+
 .big-logo {
   width: auto;
 }
