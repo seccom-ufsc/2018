@@ -9,3 +9,7 @@
 .navbar {
   background-color: lightgrey;
 }
+
+.big-logo {
+  max-width: 500px;
+}
