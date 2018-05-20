@@ -41,7 +41,7 @@ body {
 .countdown__timer {
   padding: .25em;
   background-color: white;
-  border: 1px solid black;
+  //border: 1px solid black;
   border-radius: 3px;
   font-weight: bold;
   font-size: 2em;
