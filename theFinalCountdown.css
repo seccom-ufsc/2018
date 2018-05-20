@@ -43,8 +43,8 @@ body {
   padding: .25em;
   background-color: white;
   font-weight: bold;
-  font-size: 2em;
-  //font-size: 3em;
+  //font-size: 2em;
+  font-size: 3em;
 }
 
 .countdown__label {
