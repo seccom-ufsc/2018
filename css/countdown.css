@@ -1,0 +1,36 @@
+#counter_days {
+    font-size: 5em;
+    display: block;
+}
+
+#counter_days_label {
+    font-size: 2em;
+    display: block;
+}
+
+.counter_block {
+    text-align: center;
+    height: auto;
+}
+
+.counter_number {
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Rajdhani', verdana, arial, helvetica;
+    width: auto;
+    padding: 2em;
+    background: #FFF;
+    display: inline-block;
+    color: #000;
+}
+
+.counter_label {
+    font-size: 1em;
+    text-align: center;
+    font-family: 'Rajdhani', verdana, arial, helvetica;
+    width: auto;
+    padding: .5em;
+    background: #FFF;
+    display: inline-block;
+    color: #000;
+}
