@@ -1,5 +1,5 @@
-# site-lab
+# SECCOM-2018
 
-Página de testes para sites e elementos específicos.
+Página de testes - NÃO OFICIAL
 
-https://lkaires.github.io/site-lab/
+https://arthurpixels.github.io/SECCOM-2018/
