@@ -5,6 +5,7 @@
     left: 0;
     width: 100%;
     padding: 5px;
+    text-align: center;
 }
 
 .menu_option {
@@ -16,6 +17,7 @@
     padding: .5em;
     transition: background 3s;
     text-decoration: none;
+    display: inline-block;
 }
 
 .menu_option:hover {
@@ -25,6 +27,6 @@
 .menu_logo {
     max-height: 30px;
     height: inherit;
-    //position: absolute;
-    //left: 50%;
+    display: inline-block;
+    vertical-align: middle;
 }
