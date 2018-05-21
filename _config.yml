@@ -1,0 +1,13 @@
+name: SECCOM 2018
+safe: true
+timezone: America/Sao_Paulo
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+default:
+    - scope:
+        path: "assets/img"
+      values:
+        image: true;
+
+plugins: [jekyll-paginate]

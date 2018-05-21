@@ -1,0 +1,30 @@
+.menu_bar {
+    background: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+}
+
+.menu_option {
+    width: auto;
+    background: transparent;
+    color: #162D50;
+    font-family: 'Rajdhani', verdana, arial, helvetica;
+    font-size: 1em;
+    padding: .5em;
+    transition: background 3s;
+    text-decoration: none;
+}
+
+.menu_option:hover {
+    background: #87AADE;
+}
+
+.menu_logo {
+    max-height: 30px;
+    height: inherit;
+    //position: absolute;
+    //left: 50%;
+}

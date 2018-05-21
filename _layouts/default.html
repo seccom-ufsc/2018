@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+    <html>
+
+        <head>
+            <title>{{ page.title }}</title>
+            <link rel="stylesheet" type="text/css" href="{{ "/css/menu.css" | relative_url }}">
+            <link rel="stylesheet" type="text/css" href="{{ "/css/general.css" | relative_url }}">
+            <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
+        </head>
+
+        <body>
+            <header>
+                <div class="menu_bar"><center><table><tr>
+                    <td><a class="menu_option" href="/">Início</a></td>
+                    <td><a class="menu_option" href="/blog">Notícias</a></td>
+                    <td><img class="menu_logo" src="{{ "/assets/logovsfinal.png" | relative_url }}"></td>
+                    <td><a class="menu_option" href="">Sobre</a></td>
+                    <td><a class="menu_option" href="">Cronograma</a></td>
+                </tr></table></center></div>
+            </header>
+            {{ content }}
+        </body>
+
+    </html>
