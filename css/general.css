@@ -34,7 +34,7 @@ body::-webkit-scrollbar-thumb {
     position: absolute;
     left: 5vw;
     top: 20vh;
-    background: #FAA;
+    //background: #FAA;
 }
 
 #info_title {
@@ -42,6 +42,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 3em;
     text-align: center;
     color: #162D50;
+    padding: 1em;
 }
 
 #info_photo {
@@ -62,5 +63,5 @@ body::-webkit-scrollbar-thumb {
     text-align: justify;
     overflow-y: auto;
     -ms-overflow-y: auto;
-    background: #AAF;
+    //background: #AAF;
 }
