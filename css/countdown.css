@@ -9,17 +9,11 @@
     display: block;
 }
 
-.counter_page {
-    height: 100vh;
-    max-width: 100%;
-    position: relative;
+#counter_page {
     background: linear-gradient(#162D50, #3737C8, #87AADE, #FFF);
     background: -moz-linear-gradient(#162D50, #3737C8, #87AADE, #FFF);
     background: -webkit-linear-gradient(#162D50, #3737C8, #87AADE, #FFF);
     background: -o-linear-gradient(#162D50, #3737C8, #87AADE, #FFF);
-    //background: #FAA;
-    //border: 1px dashed #000;
-    margin: 0;
 }
 
 .counter_block {
