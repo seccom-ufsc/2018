@@ -7,14 +7,14 @@ body {
 
 body::-webkit-scrollbar {
     background: #87AADE;
-    width: 2vw;
+    width: .5vw;
     height: auto;
 }
 
 body::-webkit-scrollbar-button {
     background: #162D50;
-    width: 2vw;
-    height: 2vh;
+    width: .5vw;
+    height: .5vh;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -29,17 +29,32 @@ body::-webkit-scrollbar-thumb {
 }
 
 #info_header {
-    height: 60hv;
-    width: 40hw;
+    height: 60vh;
+    width: 40vw;
     position: absolute;
-    left: 10vw;
+    left: 5vw;
     top: 20vh;
+    background: #FAA;
+}
+
+#info_title {
+    font-family: inherit;
+    font-size: 3em;
+    text-align: center;
+    color: #162D50;
+}
+
+#info_photo {
+    position: absolute;
+    width: 30vw;
+    left: 5vw;
 }
 
 #info_text {
+    position: absolute;
     height: 80vh;
-    width: 40hw;
-    right: 10vw;
+    width: 40vw;
+    right: 5vw;
     top: 10vh;
     color: #16D250;
     font-family: helvetica, verdana, arial;
@@ -47,4 +62,5 @@ body::-webkit-scrollbar-thumb {
     text-align: justify;
     overflow-y: auto;
     -ms-overflow-y: auto;
+    background: #AAF;
 }
