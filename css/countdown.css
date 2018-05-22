@@ -1,6 +1,7 @@
 #counter_days {
     font-size: 5em;
     display: block;
+    width: auto;
 }
 
 #counter_days_label {
@@ -9,13 +10,12 @@
 }
 
 .counter_page {
-    text-align: center;
     height: 100vh;
     max-width: 100%;
     position: relative;
-    background: url("{{ "assets/circuits_background.jpg" | relative_url }}");
-    background-repeat: repeat;
-    border: 1px dashed #000;
+    background: linear-gradient(#162D50, #3737C8, #87AADE, #FFF);
+    //background: #FAA;
+    //border: 1px dashed #000;
     margin: 0;
 }
 
@@ -25,13 +25,15 @@
     left: 10vw;
     background: #FFF;
     padding: 1em;
+    border-radius: 3em 1em;
+    text-align: center;
 }
 
 .counter_number {
     font-size: 3em;
     text-align: center;
     font-family: 'Rajdhani', verdana, arial, helvetica;
-    width: auto;
+    width: 1em;
     margin: .5em;
     background: #FFF;
     display: inline-block;
