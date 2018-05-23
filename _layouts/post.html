@@ -3,16 +3,19 @@
 
         <head>
             <title>{{ page.title }}</title>
-            <link rel="stylesheet" type="text/css" href="{{ "/css/menu.css" | relative_url }}">
+            <link rel="stylesheet" type="text/css" href="{{ "/css/post.css" | relative_url }}">
             <link rel="stylesheet" type="text/css" href="{{ "/css/general.css" | relative_url }}">
+            <link rel="stylesheet" type="text/css" href="{{ "/css/menu.css" | relative_url }}">
             <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
         </head>
 
         <body>
             <header>
                 {% include menu.html %}
+                <img src="{{ page.image }}" id="post_header_image">
+                <div id="post_header_title">{{ page.title }}</div>
             </header>
-            {{ content }}
+            <div class="post_body">{{ content }}</div>
         </body>
 
     </html>
