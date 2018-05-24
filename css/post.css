@@ -1,5 +1,36 @@
-#post_header_image {}
+.post_header_title {
+    font-family: 'Rajdhani', verdana, arial, helvetica;
+    font-size: 2em;
+    text-align: center;
+    margin: 2em auto 1em;
+    color: #16D250;
+}
 
-#post_header_title {}
+.post_body {
+    margin: auto 30vw;
+    text-align: justify;
+    font-family: helvetica, verdana, arial;
+    font-size: 1em;
+    color: #000;
+}
 
-.post_body {}
+.post_footer_tags {
+    text-align: center;
+    font-family: 'Rajdhani', verdana, arial, helvetica;
+    font-size: .5em;
+    color: #87aade;
+    letter-spacing: .5em;
+    padding: 1em;
+    display: inline-block;
+}
+
+.lateral_circuit_bar {
+    background: url("https://raw.githubusercontent.com/ArthurPixels/SECCOM-2018/master/assets/circuits_background.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    //opacity: .3;
+    height: 100vh;
+    width: 20vw;
+    position: fixed;
+    top: 0;
+}

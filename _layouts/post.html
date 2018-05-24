@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
     <html>
 
         <head>
@@ -12,10 +12,18 @@
         <body>
             <header>
                 {% include menu.html %}
-                <img src="{{ page.image }}" id="post_header_image">
-                <div id="post_header_title">{{ page.title }}</div>
+                <div class="post_header_title">{{ page.title }}</div>
             </header>
+
             <div class="post_body">{{ content }}</div>
+            <div class="lateral_circuit_bar" style="left: 0;"></div>
+            <div class="lateral_circuit_bar" style="right: 0;"></div>
+
+            <footer style="text-align: center;">
+                {% for tag in page.tags %}
+                    <div class="post_footer_tags">| {{ tag }} |</div>
+                {% endfor %}
+            </footer>
         </body>
 
     </html>
