@@ -29,12 +29,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 #info_header {
-    height: 60vh;
     width: 40vw;
     position: absolute;
     left: 5vw;
-    top: 20vh;
-    //background: #FAA;
+    top: 15vh;
 }
 
 #info_title {
@@ -54,14 +52,19 @@ body::-webkit-scrollbar-thumb {
 #info_text {
     position: absolute;
     height: 80vh;
-    width: 40vw;
+    width: 45vw;
     right: 5vw;
     top: 10vh;
-    color: #16D250;
+    color: #162D50;
     font-family: helvetica, verdana, arial;
     font-size: 1em;
     text-align: justify;
     overflow-y: auto;
     -ms-overflow-y: auto;
-    //background: #AAF;
+    padding: 3em;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    letter-spacing: .2em;
+    line-height: 1.5em;
 }
