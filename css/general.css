@@ -26,6 +26,7 @@ body::-webkit-scrollbar-thumb {
     max-width: 100%;
     position: relative;
     margin: 0;
+    text-align: center;
 }
 
 #info_header {
@@ -67,4 +68,17 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-sizing: border-box;
     letter-spacing: .2em;
     line-height: 1.5em;
+}
+
+#schedule_image {
+    position: relative;
+    top: 10vh;
+    height: 80vh;
+}
+
+.end_bg {
+    background: linear-gradient(#FFF, #FFF, #FFF, #87AADE, #3737C8);
+    background: -moz-linear-gradient(#FFF, #FFF, #FFF, #FFF, #87AADE, #3737C8);
+    background: -webkit-linear-gradient(#FFF, #FFF, #FFF, #FFF, #87AADE, #3737C8);
+    background: -o-linear-gradient(#FFF, #FFF, #FFF, #FFF, #87AADE, #3737C8);
 }
