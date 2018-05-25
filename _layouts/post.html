@@ -12,18 +12,17 @@
         <body>
             <header>
                 {% include menu.html %}
-                <div class="post_header_title">{{ page.title }}</div>
             </header>
 
-            <div class="post_body">{{ content }}</div>
-            <div class="lateral_circuit_bar" style="left: 0;"></div>
-            <div class="lateral_circuit_bar" style="right: 0;"></div>
+            <div class="post_background"><div class="post_page">
+                <div class="post_title">{{ page.title }}</div>
 
-            <footer style="text-align: center;">
+                <div class="post_body">{{ content }}</div>
+
                 {% for tag in page.tags %}
-                    <div class="post_footer_tags">| {{ tag }} |</div>
+                    <div class="post_tags">| {{ tag }} |</div>
                 {% endfor %}
-            </footer>
+            </div></div>
         </body>
 
     </html>
