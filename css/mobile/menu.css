@@ -1,0 +1,49 @@
+.menu_button {
+    background: #FFF;
+    color: #000;
+    opacity: 0.5;
+    z-index: 2;
+    position: fixed;
+    margin: 1vh;
+    padding: 1vh;
+    top: 0;
+    right: 0;
+    font-size: 8vw;
+}
+
+.menu_bar {
+    background: #FFF;
+    height: 0vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-top: 0vw;
+    padding-bottom: 0vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    transition-property: padding-top, padding-bottom, height;
+    transition:  1s ease-in-out;
+    overflow: hidden;
+}
+
+.menu_option {
+    color: #162D50;
+    background: #FFF;
+    font-family: 'ode-font', verdana, arial, helvetica;
+    font-size: 3vh;
+    padding: 1vh;
+    text-decoration: none;
+    display: block;
+    width: auto;
+}
+
+.menu_list {
+    list-style: none inside;
+    margin: 0;
+}
+
+li {
+    margin: 1vh;
+}

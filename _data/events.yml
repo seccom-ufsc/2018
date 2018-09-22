@@ -1,0 +1,45 @@
+    palestras:
+    - nome: "Segurança da Informação Disruptiva"
+      resumo: "Discutir a visão e abrangência atual da Segurança da Informação, confrontando com uma visão disruptiva para a segurança da informação"
+      conhecimento: "Aluno ou Atuação em TI"
+      palestrante: "Luiz Carlos Zancanella"
+
+    - nome: "Construindo uma API escalável com abordagem Serverless"
+      resumo: "Uma API escalável será construída utilizando uma abordagem serverless. Além disso o resto da arquitetura da aplicação também deve ser escalável para atender a alta demanda suportada pela API. Uma aplicação será mostrada apenas como exemplo e contextualização dessa solução."
+      conhecimento: "O que é uma API. Qualquer conhecimento extra sobre escalabilidade, serverlesse e AWS podem ajudar no entendimento da apresentação."
+      palestrante: "Vinicius Kiatkoski Neves"
+
+    - nome: "Desmistificando a aritmética de ponto flutuante: Por que 0.1+0.2 != 0.3?"
+      resumo: "A palestra traz uma visão geral sobre a representação de ponto flutuante, mostrando curiosidades (Por que 0.1+0.2 != 0.3?), problemas (Como comparar valores?) e alguns exemplos práticos (Em que tipo de problemas esse conhecimento é relevante?)."
+      conhecimentos: "É interessante, porém não imprescindível, ter conhecimentos básicos em C ou C++ e da existência do tipo primitivo float/double."
+      palestrante: "Tarcísio Fischer"
+
+    - nome: "Desafios para o projeto de circuitos integrados em tecnologias nanométricas"
+      resumo: "A evolução tecnológica possibilitou a redução dos transistores, principais componentes de circuitos integrados. Consequentemente, isso permitiu o  aumentou no desempenho e a redução  na potência destes dispositivos. Na atual geração de circuitos integrados, as dimensões dos transistores chegaram à escala nanométrica. Entretanto, circuitos nessa escala estão mais vulneráveis aos efeitos de variabilidade PVT (Process Voltage Temperature) e envelhecimento por BTI (Bias Temperature Instability). Estes efeitos fazem com que o circuito possa apresentar desvios em relação ao projeto inicialmente definido. Por exemplo, em células de memória SRAM, esses efeitos podem provocar a inversão dos bits armazenados, mau funcionamento e até mesmo impossibilitar a escrita e/ou leitura de dados. Esta palestra introduzirá os principais desafios e novas tecnologias, técnicas e metodologias propostas para lidar com eles."
+      conhecimento: "Introdução a sistemas digitais ou transistores."
+      palestrante: "Cristina Meinhardt"
+
+    - nome: "Programação Competitiva (Maratona de Programação e Olimpíada de Informática)"
+      resumo: "Na palestra serão abordados assuntos relacionados a competições de programação, em especial a maratona de programação. Tal competição promove o desenvolvimento da criatividade, raciocínio lógico, trabalho em grupo, e a resolução de problemas do mundo real sob pressão. Assim, ao mesmo tempo que tais habilidades são essenciais para um bom programador, estas são habilidades muito requisitadas no mercado de trabalho de software atualmente. Além disso, é nesta competição que muitas das empresas gigantes de tecnologia encontram as mentes mais brilhantes em programação."
+      conhecimento: "Nenhum."
+      palestrante: "Maicon Rafael Zatelli"
+
+    - nome: "Micro-serviços - Spring Cloud e Netflix OSS"
+      resumo: "Spring Cloud & Netflix OSS Arquiteturas de Software Desafios Spring Cloud Netflix OSS Service Discovery Client Side Load Balancing Circuit Breaker https://www.slideshare.net/AlexandreFonsttret/microservios-spring-cloud-e-netflix-oss-universidade-estcio-de-s"
+      conhecimentos necessários: "Conhecimento em Desenvolvimento Java."
+      palestrante: "Alexandre Fonsttret"
+
+    - nome: "A linguagem de programação Rust"
+      resumo: "Rust é uma linguagem de programação de sistemas que roda incrivelmente rápido, previne falhas de segmentação, e garante segurança entre threads. Meu objetivo é mostrar os problemas que a linguagem se propõe a resolver, como ela de fato faz isso e quais outras linguagens serviram de inspiração . É possível garantir segurança de memória com gerenciamento de memória automático mas sem um garbage collector? É possível garantir a ausência de undefined behaviour (incluindo data races) em tempo de compilação?"
+      conhecimento: "Linguagens de programação de sistemas, como C, C++, D, Nim, Go ou Swift."
+      palestrante: "Cauê Baasch de Souza"
+
+    - nome: "O Profissional de 2020"
+      resumo: "Baseado em pesquisas do Instituto do futuro a palestra apresenta as habilidades que são valorizadas pelas empresas e como trabalha-las nos dias atuais."
+      conhecimento: "Nenhum."
+      palestrante: "Roberta Lingnau"
+
+    - nome: "Carreira QA"
+      resumo: "Essa falará sobre a carreira de quem segue a área da qualidade de software, a essência da palestra é mostrar a importância desse segmento na engenharia de software e visa inspirar pessoas que ainda não sabem pra onde ir com a sua carreira ou estão em busca de mudança."
+      conhecimento: "Nenhum."
+      palestrante: "Vanessa Cunha"

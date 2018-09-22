@@ -1,0 +1,29 @@
+<div class="footer_block">
+
+    <div class="footer_content">
+        <div class="footer_title">Patrocinio</div>
+        {% for block in site.data.sponsors.diamante %}
+            <a href="{{ block.site }}" class="footer_a">{{ block.name }}</a><br>
+        {% endfor %}<br>
+        {% for block in site.data.sponsors.ouro %}
+            <a href="{{ block.site }}" class="footer_a">{{ block.name }}</a><br>
+        {% endfor %}<br>
+        {% for block in site.data.sponsors.prata %}
+            <a href="{{ block.site }}" class="footer_a">{{ block.name }}</a><br>
+        {% endfor %}<br>
+    </div>
+
+    <div class="footer_content">
+        <div class="footer_title">Organização</div>
+        PET Computação <br>
+        Caravela Hacker Club <br>
+    </div>
+
+    <div class="footer_content">
+        <div class="footer_title">Apoio</div>
+        Universidade Federal de Santa Catarina <br>
+        Centro Tecnológico <br>
+        Departamento de Informática e Estatística <br>
+    </div>
+
+</div>

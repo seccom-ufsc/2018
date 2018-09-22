@@ -1,0 +1,36 @@
+    palestrantes:
+    - nome: "Luiz Carlos Zancanella"
+      sobre: "Diretor-Presidente da Safeweb Segurança da Informação Ltda, Doutor em Ciência da Computação UFRGS, Mestre em Engenharia de Sistemas UFRJ, Professor Aposentado do INE-UFSC, com atuação nos cursos de Graduação em CC e SI, e no Mestrado em CC."
+      foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/circuits_background.jpg
+
+    - nome: "Vinicius Kiatkoski Neves"
+      sobre: "Desenvolvedor há 3 anos pela Chaordic onde atuou boa parte desse tempo no frontend e hoje está mais focado em backend. Apaixonado por Javascript e desafios tecnológicos."
+      foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/circuits_background.jpg
+
+    - nome: "Cristina Meinhardt"
+      sobre: "Possui graduação em Engenharia de Computação pela Universidade Federal do Rio Grande (2003), mestrado e doutorado em Computação pela Universidade Federal do Rio Grande do Sul (2006 / 2014). Atualmente é professora adjunta da Universidade Federal de Santa Catarina. Tem experiência na área de Ciência da Computação, com ênfase em Hardware, atuando principalmente nos seguintes temas: microeletrônica, projeto digital e low-power, tecnologias nanométricas e ferramentas de EDA."
+      foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/circuits_background.jpg
+
+    - nome: "Alexandre Fonsttret"
+      sobre: "Arquiteto de Software e Gerente de Desenvolvimento, atuante na área de TI desde 2005."
+      foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/circuits_background.jpg
+
+    - nome: "Tarcísio Fischer"
+      sobre: "Formado em Ciência da Computação pela UFSC e atualmente buscando o título de mestre em Engenharia Mecânica. Trabalha na Engineering Simulation and Scientific Software (ESSS), onde atua como desenvolvedor software na área de simulação principalmente para a indústria de óleo e gás."
+      foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/circuits_background.jpg
+
+    - nome: "Cauê Baasch de Souza"
+      sobre: "Graduando em Ciência da Computação na UFSC, membro do Caravela HackerClub, evangelista de Python e Rust, defensor do software livre."
+      foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/circuits_background.jpg
+
+    - nome: "Roberta Lingnau"
+      sobre: "Graduada em Sistemas de Informação pela Universidade Federal de Santa Catarina, possui mais de 13 anos de experiência na área de testes de sistema, aceitação do cliente, desenvolvimento de boas práticas, verificação de dados e marketing de relacionamento com o cliente. Sua extensa experiência na área de teste uniu-se com suas habilidades de liderança, multi-tarefa, boa relação interpessoal e comunicatividade. Associada à Khomp Indústria e Comércio Ltda."
+      foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/circuits_background.jpg
+
+    - nome: "Vanessa Cunha"
+      sobre: "Graduanda de Sistemas de Informação. Software Tester na Nexxera. Evangelista de qualidade. Entusiasta de DevOps. Apaixonada por qualidade."
+      foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/circuits_background.jpg
+
+    - nome: "Maicon Rafael Zatelli"
+      sobre: "Maicon possui doutorado em Engenharia de Automação e Sistemas pela UFSC (2017), com período de sanduíche entre 2015 e 2016 na Universidade de Bolonha (Itália). Possui mestrado em Engenharia de Automação e Sistemas pela UFSC (2013). Ambos, o doutorado e o mestrado foram relacionados à 'sistemas multiagentes'. Possui graduação em Ciência da Computação pela Fundação Universidade Regional de Blumenal (2010), sendo o trabalho final desenvolvido na área de 'teoria dos grafos'. Seus interesses estão relacionados à sistemas multiagentes (em especial o desenvolvimento de ferramentas, plataformas, e linguagens para a programação de sistemas multiagentes e seus componentes), e à algoritmos e estruturas de dados (em especial a 'teoria dos grafos', seus algoritmos e aplicações). Possui experiência e interesse em competições de programação, em especial a International Collegiate Programming Contest (ACM-ICPC) e Multi-Agent Programming Contest (MAPC)."
+      foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/circuits_background.jpg

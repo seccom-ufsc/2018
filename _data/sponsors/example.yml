@@ -1,8 +1,0 @@
-# Isso é um exemplo
-# Deve ser criado um .yml para cada classe de patrocinio (diamante, ouro e prata)
-#
-# sponsorship: classe_de_patrocinio
-# members:
-#   - name: nome_da_empresa
-#     logo: path_para_logo
-#     site: link_do_site

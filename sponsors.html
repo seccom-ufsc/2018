@@ -1,0 +1,36 @@
+---
+layout: default
+title: Patrocínio
+---
+
+<!DOCTYPE html>
+    <html>
+
+        <head>
+            <link rel="stylesheet" type="text/css" href="{{ "/css/info.css" | relative_url }}">
+        </head>
+
+        <body><center>
+            <div style="height: 13vh;"></div>
+
+            {% for block in site.data.sponsors.diamante %}
+            <div class="sponsor_block">
+                <img src="{{ "/assets/diamond.svg" | absolute_url }}" class="sponsor_icon">
+                <a href="{{ block.site }}"><img class="sponsor_diamante" src="{{ block.logo }}"></a>
+                <img src="{{ "/assets/diamond.svg" | absolute_url }}" class="sponsor_icon">
+                <div class="sponsor_description">{{ block.release }}</div>
+            </div>
+            {% endfor %}
+
+            {% for block in site.data.sponsors.ouro %}
+            <div class="sponsor_block">
+                <img src="{{ "/assets/gold.svg" | absolute_url }}" class="sponsor_icon">
+                <a href="{{ block.site }}"><img class="sponsor_logo" src="{{ block.logo }}"></a>
+                <img src="{{ "/assets/gold.svg" | absolute_url }}" class="sponsor_icon">
+                <div class="sponsor_description">{{ block.release }}</div>
+            </div>
+            {% endfor %}
+
+        </center></body>
+
+    </html>

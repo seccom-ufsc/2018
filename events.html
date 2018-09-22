@@ -1,0 +1,68 @@
+---
+title: Atrações
+layout: default
+---
+<!DOCTYPE html>
+    <html>
+
+        <head>
+            <script src="{{ "/js/type_switch.js" | relative_url }}"></script>
+            <link rel="stylesheet" type="text/css" href="{{ "/css/info.css" | relative_url }}">
+        </head>
+
+        <body><center>
+
+            <!-- Menu de opções de tipos de atração -->
+            <div class="type_button" id="p_click">Palestras</div><div class="type_button" id="m_click">Minicursos</div><div class="type_button" id="o_click">Outros</div>
+            <!-- Bloco de palestras -->
+            <div class="type_block" id="palestras">
+                {% for block in site.data.events.palestras %}
+                    <div class="event_block" style="background-image: url({{ "/assets/circuits_background.jpg" | relative_url }});">
+                        <div class="event_name">
+                            {{ block.nome }}
+                            <div class="event_people">{{ block.palestrante }}</div>
+                        </div>
+                        <div class="event_description">
+                            {{ block.resumo }}
+                            <div class="event_knowledge">{{ block.conhecimento }}</div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+
+            <!-- Bloco de minicursos -->
+            <div class="type_block" id="minicursos">
+                {% for block in site.data.events.minicursos %}
+                    <div class="event_block" style="background-image: url({{ "/assets/circuits_background.jpg" | relative_url }});">
+                        <div class="event_name">
+                            {{ block.nome }}
+                            <div class="event_people">{{ block.palestrante }}</div>
+                        </div>
+                        <div class="event_description">
+                            {{ block.resumo }}
+                            <div class="event_knowledge">{{ block.conhecimento }}</div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+
+            <!-- Bloco de outros eventos -->
+            <div class="type_block" id="outros">
+                {% for block in site.data.events.outros %}
+                    <div class="event_block" style="background-image: url({{ "/assets/circuits_background.jpg" | relative_url }});">
+                        <div class="event_name">
+                            {{ block.nome }}
+                            <div class="event_people">{{ block.palestrante }}</div>
+                        </div>
+                        <div class="event_description">
+                            {{ block.resumo }}
+                            <div class="event_knowledge">{{ block.conhecimento }}</div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+
+            </center></body>
+
+    </html>
+

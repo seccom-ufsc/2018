@@ -1,0 +1,27 @@
+.countdown_block {
+    width: 70vw;
+    background: #FFF;
+    margin-bottom: 5vh;
+}
+
+.countdown_write {
+    color: black;
+    font-size: 4vw;
+    display: inline-block;
+    text-align: center;
+    padding: 5vw;
+}
+
+#days {
+    color: #162D50;
+    font-size: 8vw;
+    display: block;
+    padding: 2vw;
+}
+
+#hours {
+    color: #162D50;
+    font-size: 8vw;
+    display: block;
+    padding: 2vw;
+}

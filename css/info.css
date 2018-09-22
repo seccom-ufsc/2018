@@ -1,0 +1,152 @@
+.type_button {
+    display: inline-block;
+    padding: 1vh;
+    margin-top: 8vh;
+    background: transparent;
+    transition: background 3s;
+    color: #162D50;
+}
+
+.type_button:hover {
+    background: #87AADE;
+}
+
+.type_block {
+    transition-property: opacity, z-index;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    opacity: 0;
+    z-index: -1;
+    position: absolute;
+    top: 13vh;
+}
+
+#palestras {
+    opacity: 1;
+    z-index: 0;
+}
+
+.people_block {
+    text-align: center;
+    width: 48vw;
+    margin-top: 2vh;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.people_info {
+    width: 18vw;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.people_description {
+    text-align: justify;
+    padding: 2vw;
+    width: 20vw;
+    display: inline-block;
+    color: #162D50;
+    font-family: helvetica, verdana, arial;
+}
+
+.people_name {
+    width: 16vw;
+    padding: 1vw;
+    font-size: 1em;
+    color: #162D50;
+}
+
+.people_photo {
+    background-size: cover;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.event_block {
+    width: 40vw;
+    height: 35vh;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin: 4vw;
+    border: solid 3px var(--azul-seccom-escuro);
+    border-radius: 5px;
+    background-size: cover;
+}
+
+.event_description {
+    background: #FFF;
+    color: #162D50;
+    padding: 2vh;
+    width: 26vw;
+    height: 20vh;
+    position: relative;
+    left: 5vw;
+    top: 1vh;
+    overflow: auto;
+    text-align: justify;
+    border: solid 3px var(--azul-seccom-escuro);
+    border-radius: 5px;
+    font-family: helvetica, verdana, arial;
+}
+
+.event_knowledge {
+    padding-top: 1vh;
+    font-size: 80%;
+    text-align: center;
+    color: #82aade;
+}
+
+.event_name {
+    width: auto;
+    background: #FFF;
+    color: #162D50;
+    padding: 1vw;
+    font-size: 1em;
+    margin-top: 2vw;
+}
+
+.event_people {
+    padding-top: 1vh;
+    font-size: 50%;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #82aade;
+}
+
+.sponsor_block {
+    width: 60vw;
+    vertical-align: middle;
+    margin-bottom: 5vw;
+}
+
+.sponsor_logo {
+    height: 3vw;
+    display: inline-block;
+}
+
+.sponsor_diamante {
+    height: 6vw;
+    display: inline-block;
+}
+
+.sponsor_icon {
+    height: 1vw;
+    margin: 1vw;
+    display: inline-block;
+    vertical-align: super;
+}
+
+.sponsor_description {
+    text-align: justify;
+    font-family: helvetica, verdana, arial;
+    font-size: 1em;
+    margin: 3vw;
+    display: inline-block;
+}

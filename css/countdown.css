@@ -24,12 +24,13 @@
     padding: 1em;
     border-radius: 3em 1em;
     text-align: center;
+    //max-width: 40vw;
 }
 
 .counter_number {
     font-size: 3em;
     text-align: center;
-    font-family: 'Rajdhani', verdana, arial, helvetica;
+    font-family: 'ode-font', verdana, arial, helvetica;
     width: 1em;
     margin: .5em;
     background: #FFF;
@@ -40,7 +41,7 @@
 .counter_label {
     font-size: 1em;
     text-align: center;
-    font-family: 'Rajdhani', verdana, arial, helvetica;
+    font-family: 'ode-font', verdana, arial, helvetica;
     width: auto;
     margin: .5em;
     background: #FFF;

@@ -1,20 +1,29 @@
 .post_background {
-    background: url("https://raw.githubusercontent.com/ArthurPixels/SECCOM-2018/master/assets/circuits_background.jpg");
-    background-repeat: repeat;
+    display: flex;
+    width: 100%;
+    display: block;
+    overflow: auto;
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
-    width: 100vw;
-    text-align: center;
+    background-attachment: fixed;
 }
 
 .post_page {
     background: #FFF;
-    height: 100vh;
-    margin: auto 20vw;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+    width: 100%;
+    max-width: 1000px;
     padding-bottom: 5vw;
+    text-align: center;
 }
 
 .post_title {
-    font-family: 'Rajdhani', verdana, arial, helvetica;
+    display: block;
+    font-family: 'ode-font', verdana, arial, helvetica;
     font-size: 2em;
     text-align: center;
     margin: 2em auto 1em;
@@ -34,10 +43,17 @@
 
 .post_tags {
     text-align: center;
-    font-family: 'Rajdhani', verdana, arial, helvetica;
-    font-size: .5em;
+    font-family: 'ode-font', verdana, arial, helvetica;
+    font-size: .7em;
     color: #87aade;
     letter-spacing: .5em;
     padding: 1em;
     display: inline-block;
+}
+
+.bt_back {
+    font-family: 'ode-font', verdana, arial, helvetica;
+    font-size: 1em;
+    text-decoration: none;
+    color: var(--azul-seccom);
 }

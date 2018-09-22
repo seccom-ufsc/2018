@@ -2,23 +2,7 @@ body {
     background: #FFF;
     padding: 0;
     margin: 0;
-    font-family: 'Rajdhani', verdana, arial, helvetica;
-}
-
-body::-webkit-scrollbar {
-    background: #87AADE;
-    width: .5vw;
-    height: auto;
-}
-
-body::-webkit-scrollbar-button {
-    background: #162D50;
-    width: .5vw;
-    height: .5vh;
-}
-
-body::-webkit-scrollbar-thumb {
-    background: #162D50;
+    font-family: 'ode-font', verdana, arial, helvetica;
 }
 
 .page_block {
@@ -40,7 +24,7 @@ body::-webkit-scrollbar-thumb {
     font-family: inherit;
     font-size: 3em;
     text-align: center;
-    color: #162D50;
+    color: var(--azul-seccom-escuro);
     padding: 1em;
 }
 
@@ -56,7 +40,7 @@ body::-webkit-scrollbar-thumb {
     width: 45vw;
     right: 5vw;
     top: 10vh;
-    color: #162D50;
+    color: var(--azul-seccom-escuro);
     font-family: helvetica, verdana, arial;
     font-size: 1em;
     text-align: justify;
@@ -77,8 +61,43 @@ body::-webkit-scrollbar-thumb {
 }
 
 .end_bg {
-    background: linear-gradient(#FFF, #FFF, #FFF, #87AADE, #3737C8);
-    background: -moz-linear-gradient(#FFF, #FFF, #FFF, #FFF, #87AADE, #3737C8);
-    background: -webkit-linear-gradient(#FFF, #FFF, #FFF, #FFF, #87AADE, #3737C8);
-    background: -o-linear-gradient(#FFF, #FFF, #FFF, #FFF, #87AADE, #3737C8);
+    background: linear-gradient(#FFF, #FFF, #FFF, var(--azul-seccom-claro), var(--azul-seccom));
+    background: -moz-linear-gradient(#FFF, #FFF, #FFF, #FFF, var(--azul-seccom-claro), var(--azul-seccom));
+    background: -webkit-linear-gradient(#FFF, #FFF, #FFF, #FFF, var(--azul-seccom-claro), var(--azul-seccom));
+    background: -o-linear-gradient(#FFF, #FFF, #FFF, #FFF, var(--azul-seccom-claro), var(--azul-seccom));
+}
+
+.footer_block {
+    width: 100vw;
+    background: #87aade;
+    text-align: center;
+    vertical-align: top;
+    padding: 2vw;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    bottom: 0;
+}
+
+.footer_title {
+    width: 100%;
+    color: #162d50;
+    font-family: 'ode-font', helvetica, verdana, arial;
+    padding-bottom: 2vh;
+}
+
+.footer_content {
+    width: 33%;
+    box-sizing: border-box;
+    text-align: left;
+    color: #000;
+    display: inline-block;
+    font-family: helvetica, verdana, arial;
+    vertical-align: top;
+}
+
+.footer_a {
+    color: #000;
+    font-family: helvetica, verdana, arial;
+    text-decoration: none;
 }
