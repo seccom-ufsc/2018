@@ -18,7 +18,7 @@ exclude:
   - Gemfile.lock
 
 url: "seccom-ufsc.github.io"
-baseurl: "/SECCOM-2018"  # project name
+baseurl: "/2018"  # project name
 permalink: /:year-:month-:day/:title:output_ext
 
 # Pagination Settings
