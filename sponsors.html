@@ -15,18 +15,18 @@ title: Patrocínio
 
             {% for block in site.data.sponsors.diamante %}
             <div class="sponsor_block">
-                <img src="{{ "/assets/diamond.svg" | absolute_url }}" class="sponsor_icon">
+                <img src="{{ "/assets/diamond.svg" | relative_url }}" class="sponsor_icon">
                 <a href="{{ block.site }}"><img class="sponsor_diamante" src="{{ block.logo }}"></a>
-                <img src="{{ "/assets/diamond.svg" | absolute_url }}" class="sponsor_icon">
+                <img src="{{ "/assets/diamond.svg" | relative_url }}" class="sponsor_icon">
                 <div class="sponsor_description">{{ block.release }}</div>
             </div>
             {% endfor %}
 
             {% for block in site.data.sponsors.ouro %}
             <div class="sponsor_block">
-                <img src="{{ "/assets/gold.svg" | absolute_url }}" class="sponsor_icon">
+                <img src="{{ "/assets/gold.svg" | relative_url }}" class="sponsor_icon">
                 <a href="{{ block.site }}"><img class="sponsor_logo" src="{{ block.logo }}"></a>
-                <img src="{{ "/assets/gold.svg" | absolute_url }}" class="sponsor_icon">
+                <img src="{{ "/assets/gold.svg" | relative_url }}" class="sponsor_icon">
                 <div class="sponsor_description">{{ block.release }}</div>
             </div>
             {% endfor %}
