@@ -1,13 +1,26 @@
-name: SECCOM 2018
+title: SECCOM 2018
 safe: true
 timezone: America/Sao_Paulo
-paginate: 10
-paginate_path: "/blog/page:num/"
 
 default:
     - scope:
         path: "assets/img"
-      values:
+    - values:
         image: true;
 
-plugins: [jekyll-paginate]
+# Build settings
+markdown: kramdown
+# plugins: 
+#   - jekyll-paginate
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+url: "arthurpixels.github.io"
+baseurl: "/SECCOM-2018"  # project name
+permalink: /:year-:month-:day/:title:output_ext
+
+# Pagination Settings
+paginate: 5
+paginate_path: "/news/page:num"
