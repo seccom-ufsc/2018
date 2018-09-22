@@ -3,6 +3,8 @@
 
         <head>
             <title>{{ page.title }}</title>
+            <link rel="icon" type="image/png" href="{{ "/assets/logovsfinal.svg" | relative_url }}">
+            <link rel="stylesheet" type="text/css" href="{{ "/css/variables.css" | relative_url }}">
             <link rel="stylesheet" type="text/css" href="{{ "/css/post.css" | relative_url }}">
             <link rel="stylesheet" type="text/css" href="{{ "/css/general.css" | relative_url }}">
             <link rel="stylesheet" type="text/css" href="{{ "/css/menu.css" | relative_url }}">
@@ -14,15 +16,22 @@
                 {% include menu.html %}
             </header>
 
-            <div class="post_background"><div class="post_page">
-                <div class="post_title">{{ page.title }}</div>
+            <div class="post_background" style="background-image: url(https://raw.githubusercontent.com/ArthurPixels/SECCOM-2018/master/assets/circuits_background.jpg)">
 
-                <div class="post_body">{{ content }}</div>
+                <div class="post_page">
+                    <div class="post_title">{{ page.title }}</div>
 
-                {% for tag in page.tags %}
-                    <div class="post_tags">| {{ tag }} |</div>
-                {% endfor %}
-            </div></div>
+                    <div class="post_body">{{ content }}</div>
+
+                    {% for tag in page.tags %}
+                        <div class="post_tags">| {{ tag }} |</div>
+                    {% endfor %}
+                    <br>
+                    <a class="bt_back" href="#" onclick="window.history.back()">
+                       VOLTAR 
+                    </a>
+                </div>
+            </div>
         </body>
 
     </html>
