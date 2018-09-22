@@ -10,14 +10,14 @@ default:
 
 # Build settings
 markdown: kramdown
-# plugins: 
+# plugins:
 #   - jekyll-paginate
 
 exclude:
   - Gemfile
   - Gemfile.lock
 
-url: "arthurpixels.github.io"
+url: "seccom-ufsc.github.io"
 baseurl: "/SECCOM-2018"  # project name
 permalink: /:year-:month-:day/:title:output_ext
 
