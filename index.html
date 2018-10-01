@@ -2,59 +2,47 @@
 layout: default
 title: SECCOM 2018
 ---
+
 <!DOCTYPE html>
-    <html>
+<html>
 
-        <head>
-            <script src="{{ "/js/countdown.js" | relative_url }}"></script>
-            <link rel="stylesheet" type="text/css" href="{{ "/css/countdown.css" | relative_url }}">
-        </head>
+    <head>
+        <script src="{{ "/js/index.js" | relative_url }}"></script>
+        <script src="{{ "/js/countdown.js" | relative_url }}"></script>
+        <script type="text/javascript">
+            if (screen.width <= 699) {
+                document.location = "{{ "/m/index.html" | relative_url }}";
+            }
+        </script>
+        <link rel="stylesheet" type="text/css" href="{{ "/css/countdown.css" | relative_url }}">
+        <link rel="stylesheet" type="text/css" href="{{ "/css/index.css" | relative_url }}">
+    </head>
 
-        <body>
-            <div class="page_block" id="counter_page"><div class="counter_block">
-                <div class="counter_number" id="counter_days">0</div>
-                <div class="counter_label" id="counter_days_label">Dias</div>
-                <div class="counter_number" id="counter_hours">0</div>
-                <div class="counter_label">Horas</div>
-                <div class="counter_number" id="counter_minutes">0</div>
-                <div class="counter_label">Minutos</div>
-                <div class="counter_number" id="counter_seconds">0</div>
-                <div class="counter_label">Segundos</div>
-            </div></div>
-            <div class="page_block" id="info">
-                <div id="info_header">
-                    <div id="info_title">A SECCOM</div>
-                    <a href="https://seccom-ufsc.github.io/2017/" target="_blank"><img src="{{ "/assets/seccom2017.jpg" | absolute_url }}" id="info_photo"></a>
-                </div>
-                <div id="info_text">
-                    A SECCOM, semana acadêmica da computação, é
-                    um evento organizado por alunos da graduação apoiados pelo
-                    INE e pelo CTC. Preza por complementar a formação acadêmica
-                    e profissional dos graduandos dos cursos de Ciência da
-                    Computação e Sistemas de Informação e comunidade em geral,
-                    expondo aos participantes tópicos recentes, ferramentas
-                    utilizadas no mercado de trabalho e mostrando as
-                    possibilidades de atuação após a graduação através de
-                    palestras e minicursos.
-                    <br><br>
-                    Na XXI edição, teremos a segunda Feira Empresarial, um
-                    espaço para interação entre os participantes do evento e as
-                    empresas patrocinadoras.  Além disso, teremos a Feira
-                    Cientifica, em que pesquisadores tanto de Iniciação
-                    Cientifica quanto de Laboratórios estarão apresentando suas
-                    pesquisas recentes.
-                    <br><br>
-                    A SECCOM irá ocorrer no CTC entre os dias 16/10/2018 e
-                    19/10/2018, as atividades da Semana Acadêmica - palestras,
-                    minicursos, Feira Empresarial, Feira Cientifica,  e Mesa
-                    Redonda - serão divididos entre o INE, o bloco A e B do CTC
-                    e o Departamento de Engenharia de Produção e
-                    Sistemas.
-                </div>
+    <body><center>
+
+        <div id="photo_block">
+            <div id="description_block">
+                A SECCOM, semana acadêmica da computação, é um evento organizado por alunos da graduação apoiados pelo INE e pelo CTC. Preza por complementar a formação acadêmica e profissional dos graduandos dos cursos de Ciência da Computação e Sistemas de Informação e comunidade em geral, expondo aos participantes tópicos recentes, ferramentas utilizadas no mercado de trabalho e mostrando as possibilidades de atuação após a graduação através de palestras e minicursos.<br><br>
+                Na XXI edição, teremos a segunda Feira Empresarial, um espaço para interação entre os participantes do evento e as empresas patrocinadoras. Além disso, teremos a Feira Cientifica, em que pesquisadores tanto de Iniciação Cientifica quanto de Laboratórios estarão apresentando suas pesquisas recentes.<br><br>
+                A SECCOM irá ocorrer no CTC entre os dias <b>16/10/2018 e 19/10/2018</b>, as atividades da Semana Acadêmica - palestras, minicursos, Feira Empresarial, Feira Cientifica, e Mesa Redonda - serão divididos entre o INE, o bloco A e B do CTC e o Departamento de Engenharia de Produção e Sistemas.
             </div>
-            <div class="page_block end_bg" id="schedule">
-                <a href="{{ "/assets/tabelacronograma.png" | absolute_url }}" target="_blank"><img src="{{ "/assets/tabelacronograma.png" | absolute_url }}" id="schedule_image"></a>
-            </div>
-        </body>
+        </div>
 
-    </html>
+        <div class="emp_block">
+            {% for block in site.data.sponsors.diamante %}
+                <div class="emp_set">
+                    <img class="emp_diamante" src="{{ block.logo }}">
+                </div>
+            {% endfor %}
+            <div class="emp_set">
+                {% for block in site.data.sponsors.ouro %}
+                    <img class="emp_logo" src="{{ block.logo }}">
+                {% endfor %}
+            </div>
+        </div>
+
+        <a href="{{ "/assets/tabelacronograma.png" | relative_url }}" target="_blank"><img src="{{ "/assets/tabelacronograma.png" | relative_url }}" id="schedule_image"></a>
+
+    </center></body>
+
+</html>
