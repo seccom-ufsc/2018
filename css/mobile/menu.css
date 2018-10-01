@@ -24,7 +24,7 @@
     padding-left: 5vw;
     padding-right: 5vw;
     transition-property: padding-top, padding-bottom, height;
-    transition:  1s ease-in-out;
+    transition:  .5s ease-in-out;
     overflow: hidden;
 }
 

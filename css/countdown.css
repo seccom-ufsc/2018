@@ -1,50 +1,34 @@
-#counter_days {
-    font-size: 5em;
-    display: block;
-    width: auto;
-}
-
-#counter_days_label {
-    font-size: 2em;
-    display: block;
-}
-
-#counter_page {
-    background: linear-gradient(#162D50, #3737C8, #87AADE, #FFF);
-    background: -moz-linear-gradient(#162D50, #3737C8, #87AADE, #FFF);
-    background: -webkit-linear-gradient(#162D50, #3737C8, #87AADE, #FFF);
-    background: -o-linear-gradient(#162D50, #3737C8, #87AADE, #FFF);
-}
-
 .counter_block {
-    position: absolute;
-    top: 15vh;
-    left: 10vw;
     background: #FFF;
-    padding: 1em;
-    border-radius: 3em 1em;
+    height: 100%;
+    box-sizing: border-box;
+    vertical-align: middle;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 10%;
+    min-width: 10%;
     text-align: center;
-    //max-width: 40vw;
+}
+
+.counter_set {
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+    padding: 3vw;
 }
 
 .counter_number {
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
     font-family: 'ode-font', verdana, arial, helvetica;
-    width: 1em;
-    margin: .5em;
-    background: #FFF;
-    display: inline-block;
     color: #000;
 }
 
 .counter_label {
-    font-size: 1em;
+    font-size: .7em;
     text-align: center;
     font-family: 'ode-font', verdana, arial, helvetica;
-    width: auto;
-    margin: .5em;
-    background: #FFF;
-    display: inline-block;
-    color: #000;
+    color: #162d50;
+    margin-top: -2em;
 }
