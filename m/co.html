@@ -1,0 +1,22 @@
+---
+layout: mobile
+title: Conheça
+---
+
+<!DOCTYPE html>
+    <html>
+
+        <head>
+            <link rel="stylesheet" type="text/css" href="{{ "/css/mobile/info.css" | relative_url }}">
+        </head>
+
+        <body>
+            {% capture photo %}
+            {{ "/assets/circuits_background.jpg" | absolute_url }}
+            {% endcapture %}
+
+            {% include people.html url=photo name="CO" description="Descrição" %}
+
+        </body>
+
+    </html>

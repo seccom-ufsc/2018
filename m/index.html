@@ -1,0 +1,29 @@
+---
+layout: mobile
+title: SECCOM 2018
+---
+<!DOCTYPE html>
+    <html>
+
+        <head>
+            <script src="{{ "/js/mobile_countdown.js" | relative_url }}"></script>
+            <link rel="stylesheet" type="text/css" href="{{ "/css/mobile/countdown.css" | relative_url }}">
+        </head>
+
+        <body><center>
+
+            <div class="info_block">
+                A Semana Acadêmica de Computação e Sistemas, conhecida como SECCOM, acontecerá entre os dias 16/10 e 19/10. Terá várias atrações, como palestras e minicursos, ocorrendo no CTC; com o principal lugar - das palestras -  sendo o auditório do EPS.
+            </div>
+
+            <div class="countdown_block">
+                <div class="countdown_write">Faltam</div> <br>
+                <div class="countdown_write"><div id="days">XX</div> Dias</div>
+                <div class="countdown_write"><div id="hours">XX</div> Horas</div>
+            </div>
+
+            <a href="{{ "/assets/tabelacronograma.png" | relative_url }}" target="_blank"><img id="schedule_image" src="{{ "/assets/tabelacronograma.png" | relative_url}}"></a>
+
+        </center></body>
+
+    </html>

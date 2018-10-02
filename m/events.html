@@ -1,0 +1,22 @@
+---
+layout: mobile
+title: Atrações
+---
+
+<!DOCTYPE html>
+    <html>
+
+        <head>
+            <link rel="stylesheet" type="text/css" href="{{ "/css/mobile/info.css" | relative_url }}">
+        </head>
+
+        <body>
+            {% capture photo %}
+                {{ "/assets/circuitos_background.jpg" | absolute_url }}
+            {% endcapture %}
+
+            {% include mobile_events.html name="Outros" description="Descrição" url=photo %}
+
+        </body>
+
+    </html>
