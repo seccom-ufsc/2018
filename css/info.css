@@ -120,30 +120,30 @@
     color: #82aade;
 }
 
-.sponsor_block {
+.emp_block {
     width: 60vw;
     vertical-align: middle;
     margin-bottom: 5vw;
 }
 
-.sponsor_logo {
+.emp_logo {
     height: 3vw;
     display: inline-block;
 }
 
-.sponsor_diamante {
+.emp_diamante {
     height: 6vw;
     display: inline-block;
 }
 
-.sponsor_icon {
+.emp_icon {
     height: 1vw;
     margin: 1vw;
     display: inline-block;
     vertical-align: super;
 }
 
-.sponsor_description {
+.emp_description {
     text-align: justify;
     font-family: helvetica, verdana, arial;
     font-size: 1em;
