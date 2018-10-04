@@ -59,6 +59,7 @@
 
 .people_photo {
     background-size: cover;
+    object-fit: cover;
     width: 10vw;
     height: 10vw;
     border-radius: 50%;
