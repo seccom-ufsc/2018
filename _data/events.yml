@@ -110,5 +110,5 @@
 
     - nome: Capture The Flag
       resumo: "Para quem gostaria de se aventurar com segurança, invasões e até mesmo engenharia reversa, há uma competição que se encaixa perfeitamente: o CTF (Capture The Flag). Elaborado em moldes semelhantes a uma maratona de programação, o CTF inclui desafios que lidam com diversos tipos de exploits de segurança, a fim de que seus participantes tanto aprendam quanto ponham seus conhecimentos de hacking a prova!"
-      conhecimento: ?
+      conhecimento: "?"
       duracao: 4 horas/aula.
