@@ -11,7 +11,7 @@
 
     - nome: "Desmistificando a aritmética de ponto flutuante: Por que 0.1+0.2 != 0.3?"
       resumo: "A palestra traz uma visão geral sobre a representação de ponto flutuante, mostrando curiosidades (Por que 0.1+0.2 != 0.3?), problemas (Como comparar valores?) e alguns exemplos práticos (Em que tipo de problemas esse conhecimento é relevante?)."
-      conhecimentos: "É interessante, porém não imprescindível, ter conhecimentos básicos em C ou C++ e da existência do tipo primitivo float/double."
+      conhecimento: "É interessante, porém não imprescindível, ter conhecimentos básicos em C ou C++ e da existência do tipo primitivo float/double."
       palestrante: "Tarcísio Fischer"
 
     - nome: "Desafios para o projeto de circuitos integrados em tecnologias nanométricas"
@@ -26,7 +26,7 @@
 
     - nome: "Micro-serviços - Spring Cloud e Netflix OSS"
       resumo: "Spring Cloud & Netflix OSS Arquiteturas de Software Desafios Spring Cloud Netflix OSS Service Discovery Client Side Load Balancing Circuit Breaker https://www.slideshare.net/AlexandreFonsttret/microservios-spring-cloud-e-netflix-oss-universidade-estcio-de-s"
-      conhecimentos necessários: "Conhecimento em Desenvolvimento Java."
+      conhecimento: "Conhecimento em Desenvolvimento Java."
       palestrante: "Alexandre Fonsttret"
 
     - nome: "A linguagem de programação Rust"
@@ -43,3 +43,72 @@
       resumo: "Essa falará sobre a carreira de quem segue a área da qualidade de software, a essência da palestra é mostrar a importância desse segmento na engenharia de software e visa inspirar pessoas que ainda não sabem pra onde ir com a sua carreira ou estão em busca de mudança."
       conhecimento: "Nenhum."
       palestrante: "Vanessa Cunha"
+
+    - nome: "API Gateway na prática - Implementação do API GW Open Source Kong"
+      resumo: "A palestra será divida em duas partes. A primeira será uma rápida introdução ao papel do Cloud Engineer, e entendimento de como esse profissional atua dentro da Linx+Neemu+Chaordic. Na segunda etapa iremos mostrar uma das soluções que mantemos hoje de forma Cross entre nossos produtos, que é o uso do API Gateway Open Source Kong."
+      conhecimento: Redes, protocolo http, e entendimento geral de sistemas web.
+      palestrante: Marcelo Anton
+
+    - nome: "Testes de Invasão, Bug Bounties e CTFs - Hacking no mundo real"
+      resumo: O objetivo da palestra é apresentar cenários do mundo real onde é possível aplicar técnicas e conceitos de hacking no contexto de Segurança da Informação, mostrando como é possível treinar e aprender tais técnicas de forma legal visando lucro ou simplesmente por pura diversão e competitividade.
+      conhecimento: Desenvolvimento de Software, Protocolos de Redes, Sistemas Operacionais.
+      palestrante: Diego Marques, Luan Herrera
+
+    - nome: "Cloud Computing, quais as reais vantagens?"
+      resumo: "Uma análise critica e prática sobre o porque devemos ter soluções em Cloud e como o presente e futuro estão sendo moldados em torno desse conceito. Será apresentado comparativo entre uso de Cloud vs 'Infraestrutura em casa' no dia a dia de empresas, abordando questões como: custo, confiabilidade, escalabilidade, manutenibilidade, velocidade no desenvolvimento e implantação, dentre outros pontos que ajudam na compreensão das vantagens do uso de Cloud."
+      conhecimento: Noções básica sobre computação, servidores, computação em nuvem.
+      palestrante: Isaac Felisberto de Souza
+
+    minicursos:
+    - nome: Integração contínua com Gitlab
+      resumo: "Após a aquisição do Github pela Microsoft houve uma crescente migração de projetos para o gitlab #movingtogitlab. Mas o que o Gitlab tem a oferecer? Este minicurso irá navegar através das principais ferramentas oferecidas pelo Gitlab, incluindo versionamento, issues, CI/CD, para além das razões do qual o fazem ser tão importante para empresas e comunidades open source."
+      conhecimento:  Git (básico)
+      ferramentas: Git, qualquer web browser (firefox, chrome, opera).
+      duracao: 2 horas/aula.
+      ministrante: Uilian Ries
+
+    - nome: Mergulhando em Rust
+      resumo: Rust é uma linguagem de programação de sistemas que roda incrivelmente rápido, previne falhas de segmentação, e garante segurança entre threads. Venha conhecer, colocando a mão na massa, as ferramentas, o ecossistema e os fundamentos que possibilitam todas as garantias da linguagem.
+      conhecimento: Linguagens de programação de sistemas, como C, C++, D, Nim, Go ou Swift.
+      ferramentas: Computador com editor de texto e acesso à internet ou rustup instalado.
+      duracao: 4 horas/aula.
+      ministrante: Cauê Baasch de Souza
+
+    - nome: Python
+      resumo: Minicurso introdutório de Python, com ênfase nas ferramentas necessárias para iniciar um projeto em Python e na sintaxe básica e utilidades diversas da linguagem.
+      conhecimento: Conhecimento básico de linha de comando e uso de algum editor de texto.
+      ferramentas: Distribuição Linux com Python 3.6 ou 3.7. Poetry instalado (pode ser a nível de usuário).
+      duracao: 6 horas/aula.
+      ministrante: Tarcísio Eduardo Moreira Crocomo
+
+    - nome: Crie sua própria API Rest e teste com o postman
+      resumo: "Nesse minicurso aprenderemos termos como: O que é uma API, Rest, base de dados NoSQL, Schemas, uso de Frameworks para interfaces web simples. Criaremos uma API Rest utilizando NodeJS, Mongo, Express e Angular 1 e depois testar usando o Postman. Assim poderemos ensinar todo o processo de desenvolvimento com boas práticas e a testar esse desenvolvimento."
+      conhecimento: Contato com programação(básico). Desejável conhecimento em JavaScript.
+      ferramentas: Computador, IDE para escrever o código (Atom é recomendado), NodeJS, Mongo, Express, Angular, Postman, (Instalações podem ser feitas junto à instrutora no primeiro dia).
+      duracao: 6 horas/aula.
+      ministrante: Vanessa Cunha
+
+    - nome: Angular 4/5/6
+      resumo: O Angular é uma plataforma para construir aplicações Web, mobile ou desktop, que oferece um framework para desenvolver usando JavaScript, HTML e CSS. Desenvolvido no Google, é um dos frameworks mais populares e requisitados no mercado! Nesse minicurso você terá o primeiro contato com o framework e será abordado assuntos como Angular js e angular 2/4/5/6, SPAs, Data Binding, diretivas, rotas, views.
+      conhecimento: Programação orientada a objetos.
+      ferramentas: "Obrigatórios: Node, npm, Angular CLI, Editor de código de sua preferencia. Diferenciais: Bootstrap, grid ou flexbox."
+      duracao: 6 horas/aula.
+      ministrante: Edison Cristovao Junior
+
+    - nome: Versionamento de código com Git e Github
+      resumo: "Produzir software nunca foi uma tarefa fácil, pois à medida que novas funcionalidades são codificadas, torna-se mais dificil rastrear possíveis bugs e dar manutenabilidade ao sistema. Com uma ferramenta de versionamento de código é possível tornar essa tarefa mais fácil e prática para os desenvolvedores. Este minicurso abordará duas tecnologias: git, usada para versionamento local e o github como repositório distribuido. Será feita uma motivação, de como elas podem ser úteis na prática, seus conceitos básicos e intermediários, além de mostrar o que fazer em certas situações do cotidiano que não parecem ter solução."
+      conhecimento: Conhecimento de programação no mínimo básico, familiaridade com o terminal do linux.
+      ferramentas: Git.
+      duracao: 2 horas/aula.
+      ministrante: Marcos Schead
+
+    outros:
+    - nome: Maratona de Programação
+      resumo: O curso será realizado na forma de uma maratona de programação. Neste curso, os alunos devem se organizar em times de 2 a 3 membros e terão por volta de 4 horas para resolver uma lista de problemas. O curso promoverá também a integração entre os alunos de turmas, turnos e anos diferentes, permitindo ao aluno exercitar a criatividade, trabalho em equipe, raciocínio lógico, dentre outras habilidades requeridas para um bom programador. Além disso, o curso visa divulgar a maratona de programação e motivar a participação dos alunos.
+      conhecimento: "Saber realizar entrada e saída de dados em alguma das linguagens a seguir: Python, Java, C/C++."
+      duracao: 4 horas/aula.
+
+    - nome: Capture The Flag
+      resumo: "Para quem gostaria de se aventurar com segurança, invasões e até mesmo engenharia reversa, há uma competição que se encaixa perfeitamente: o CTF (Capture The Flag). Elaborado em moldes semelhantes a uma maratona de programação, o CTF inclui desafios que lidam com diversos tipos de exploits de segurança, a fim de que seus participantes tanto aprendam quanto ponham seus conhecimentos de hacking a prova!"
+      conhecimento: ?
+      duracao: 4 horas/aula.

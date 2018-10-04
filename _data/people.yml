@@ -1,7 +1,7 @@
     palestrantes:
     - nome: "Luiz Carlos Zancanella"
       sobre: "Diretor-Presidente da Safeweb Segurança da Informação Ltda, Doutor em Ciência da Computação UFRGS, Mestre em Engenharia de Sistemas UFRJ, Professor Aposentado do INE-UFSC, com atuação nos cursos de Graduação em CC e SI, e no Mestrado em CC."
-      foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/circuits_background.jpg
+      foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/fotos/zancanella.jpg
 
     - nome: "Vinicius Kiatkoski Neves"
       sobre: "Desenvolvedor há 3 anos pela Chaordic onde atuou boa parte desse tempo no frontend e hoje está mais focado em backend. Apaixonado por Javascript e desafios tecnológicos."
@@ -21,16 +21,61 @@
 
     - nome: "Cauê Baasch de Souza"
       sobre: "Graduando em Ciência da Computação na UFSC, membro do Caravela HackerClub, evangelista de Python e Rust, defensor do software livre."
-      foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/circuits_background.jpg
+      foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/fotos/caue.jpg
 
     - nome: "Roberta Lingnau"
       sobre: "Graduada em Sistemas de Informação pela Universidade Federal de Santa Catarina, possui mais de 13 anos de experiência na área de testes de sistema, aceitação do cliente, desenvolvimento de boas práticas, verificação de dados e marketing de relacionamento com o cliente. Sua extensa experiência na área de teste uniu-se com suas habilidades de liderança, multi-tarefa, boa relação interpessoal e comunicatividade. Associada à Khomp Indústria e Comércio Ltda."
-      foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/circuits_background.jpg
+      foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/fotos/lignau.jpg
 
     - nome: "Vanessa Cunha"
       sobre: "Graduanda de Sistemas de Informação. Software Tester na Nexxera. Evangelista de qualidade. Entusiasta de DevOps. Apaixonada por qualidade."
-      foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/circuits_background.jpg
+      foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/fotos/cunha.jpg
 
     - nome: "Maicon Rafael Zatelli"
       sobre: "Maicon possui doutorado em Engenharia de Automação e Sistemas pela UFSC (2017), com período de sanduíche entre 2015 e 2016 na Universidade de Bolonha (Itália). Possui mestrado em Engenharia de Automação e Sistemas pela UFSC (2013). Ambos, o doutorado e o mestrado foram relacionados à 'sistemas multiagentes'. Possui graduação em Ciência da Computação pela Fundação Universidade Regional de Blumenal (2010), sendo o trabalho final desenvolvido na área de 'teoria dos grafos'. Seus interesses estão relacionados à sistemas multiagentes (em especial o desenvolvimento de ferramentas, plataformas, e linguagens para a programação de sistemas multiagentes e seus componentes), e à algoritmos e estruturas de dados (em especial a 'teoria dos grafos', seus algoritmos e aplicações). Possui experiência e interesse em competições de programação, em especial a International Collegiate Programming Contest (ACM-ICPC) e Multi-Agent Programming Contest (MAPC)."
       foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/circuits_background.jpg
+
+    - nome: Marcelo Anton
+      sobre: "Trabalha a 10 anos com desenvolvimento e operações de sistemas focado em sistema com alto volumes de requisições e escalabilidade entrou na empresa Chaordic no ano de 2015, pouco antes da compra da empresa pela Linx S. A. Hoje atua como Head de Cloud e Tecnologia da Linx em Florianopolis, focando na apoio ao desenvolvimento dos produtos digitais da empresa Linx, vertical essa resultado das aquisições de Neemu, Chaordic, Shopback e Percycle."
+      foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/fotos/anton.jpg
+
+    - nome: Diego Marques
+      sobre: "Bacharel em Ciências da Computação pela UFSC, Analista de Segurança da Informação e entusiasta do hacking, possui diversas certificações na área de Segurança Ofensiva, com estudos e pesquisa focados nos testes de invasão e segurança de aplicações, foi campeão do Hackaflag na etapa regional de Florianópolis em 2017."
+      foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/circuits_background.jpg
+
+    - nome: Luan Herrera
+      sobre: "Herrera faz pesquisa independente de segurança e participa de programas de recompensa nas horas vagas, tendo reportado vulnerabilidades para empresas como: Google, Mozilla, Brave, Valve e Nubank. É jogador de CTF pela Epic Leet Team, e foi também campeão do CTF da edição #h15411 do HackerOne e vice-campeão da final do Hackaflag 2017."
+      foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/circuits_background.jpg
+
+    - nome: Isaac Felisberto de Souza
+      sobre: "Com 19 anos de experiência em desenvolvimento de software, iniciou com linguagens como PHP, JavaScript, PL/SQL, PowerBuilder até se estabelecer na plataforma Java onde trilhou os papéis de desenvolvedor, analista e arquiteto sempre atuando com desenvolvimento Full Stack. Buscando constantemente aplicar melhores práticas de desenvolvimento e arquitetura de software, esteve envolvido nas empresas onde atuou com aplicação de conceitos de Padrões de Projeto, Automatização de Processos, Integração e Entrega Contínua (CI/CD), dentre outros. Atualmente também desenvolve nas plataformas Python e Ruby e soluções rodando em Cloud. Hoje atua como Software Engineer e busca aplicar conceitos Lean e Ágeis no processo de desenvolvimento de software."
+      foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/circuits_background.jpg
+
+    ministrantes:
+    - nome: Uilian Ries
+      sobre: Desenvolvedor de software, nas tecnologias C/C++ e Python. Formado no curso de análise e desenvolvimento de sistemas pela UNISINOS e técnico em informática industrial pelo SENAI-RS. Participa ativamente em projetos Open Source e atualmente desenvolve projetos ligados a internet das coisas na Khomp.
+      foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/circuits_background.jpg
+
+    - nome: "Cauê Baasch de Souza"
+      sobre: "Graduando em Ciência da Computação na UFSC, membro do Caravela HackerClub, evangelista de Python e Rust, defensor do software livre."
+      foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/circuits_background.jpg
+
+    - nome: Tarcísio Eduardo Moreira Crocomo
+      sobre: Formado em Ciência da Computação pela UFSC, atualmente trabalha como desenvolvedor na Cellcrypt. Já teve experiência profissional com Python, C++ e TypeScript. Usa Python sempre que possível para qualquer mínima tarefa profissional ou pessoal.
+
+    - nome: "Vanessa Cunha"
+      sobre: "Graduanda de Sistemas de Informação. Software Tester na Nexxera. Evangelista de qualidade. Entusiasta de DevOps. Apaixonada por qualidade."
+      foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/fotos/cunha.jpg
+
+    - nome: Edison Cristovao Junior
+      sobre: Aluno de Ciência da computação e estudante de programação desde 2012, apaixonado por programação web (backend e frontend) e participação em vários projetos web incluído projeto para SSP.
+      foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/fotos/edson.jpg
+
+    - nome: Marcos Schead
+      sobre: Bacharel pela Universidade Federal de Santa Catarina (UFSC) em Ciências da Computação, Marcos Schead trabalhou três anos no Laboratório Bridge. Começou na área de qualidade e testes, dentro do projeto de prontuário eletrônico e-SUS AB. Alguns meses depois tornou-se desenvolvedor Java no projeto SISMB (Gerenciamento de Obras da Saúde) e também atuou como desenvolvedor iOS usando a linguagem Swift para a versão mobile do mesmo projeto. Um pouco antes de sair, retornou ao projeto e-SUS AB como programador Java. É desenvolvedor FrontEnd com ênfase em React na Softplan, e está alocado num projeto que visa melhorar a experiência do usuário na área judiciária brasileira. Também possui vínculo na Jungsoft, ajudando desenvolvedores em alguns projetos para fora do Brasil. Nesse último, além de React, tecnologias como React Native, Ruby on Rails e Elixir são bastante utilizadas.
+      foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/circuits_background.jpg
+
+    co:
+    - nome: João Paulo Taylor Ienczak Zanette
+      sobre: "Quase formado veterano da graduação em Ciência da Computação na UFSC. Maluco auto-afirmado (seu mural da loucura está disponível em https://github.com/jptiz), há muito tempo foi-lhe imposta a maldição de sorrateiramente oferecer minicurso de Java aos mais novos calouros do curso, mesmo querendo ensinar sobre qualquer outra linguagem (menos Pascal e Go). Adora discutir sobre linguagens e teoria da computação, xingar código alheio e brincar com programação nas horas vagas (especialmente jogos, ferramentas e GBA). PS: Não espere piadas boas vindo dele, mas espere que as tentativas sejam frequentes."
+      foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/fotos/jptiz.jpg
