@@ -54,10 +54,12 @@ body {
     line-height: 1.5em;
 }
 
-#schedule_image {
-    position: relative;
-    top: 10vh;
-    height: 80vh;
+@media all and (min-width: 700px) {
+    #schedule_image {
+        position: relative;
+        top: 10vh;
+        height: 80vh;
+    }
 }
 
 .end_bg {

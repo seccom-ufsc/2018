@@ -1,0 +1,30 @@
+---
+title: Seccom
+layout: mobile
+---
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="{{ "/css/variables.css" | relative_url }}">
+        <link rel="stylesheet" type="text/css" href="{{ "/css/mobile/news.css" | relative_url }}">
+    </head>
+
+    <body>
+        <div class="news_list">
+            {% for post in site.posts %}
+                <div class="news_post">
+                    <h1><a href="{{ site.baseurl }}{{ post.url }}" >{{ post.title }}</a></h1>
+                    <p style="text-align: center;">{{ post.date | date: "%d/%m/%Y"}}</p>
+                    {{ post.excerpt }}
+                </div>
+            {% endfor %}
+
+        </div>
+
+    </body>
+
+</html>
+
+<!-- <center><div style="font-size: 5em; font-family: Rajdhani;"><br>EM CONSTRUÇÃO</div></center> -->

@@ -1,10 +1,13 @@
 .type_button {
     display: inline-block;
-    padding: 1vh;
+    padding: 2vh;
+    margin: 1vw;
     margin-top: 8vh;
     background: transparent;
     transition: background 3s;
     color: #162D50;
+    cursor: pointer;
+    background: rgba(135,170,222,0.1);
 }
 
 .type_button:hover {
@@ -12,18 +15,14 @@
 }
 
 .type_block {
-    transition-property: opacity, z-index;
-    transition-duration: 2s;
-    transition-timing-function: ease-in-out;
-    opacity: 0;
-   z-index: -1;
     position: absolute;
     top: 13vh;
+    left: 0;
+    display: none;
 }
 
 #palestras {
-    opacity: 1;
-    z-index: 0;
+    display: block;
 }
 
 .people_block {
@@ -121,30 +120,30 @@
     color: #82aade;
 }
 
-.emp_block {
+.sponsor_block {
     width: 60vw;
     vertical-align: middle;
     margin-bottom: 5vw;
 }
 
-.emp_logo {
+.sponsor_logo {
     height: 3vw;
     display: inline-block;
 }
 
-.emp_diamante {
+.sponsor_diamante {
     height: 6vw;
     display: inline-block;
 }
 
-.emp_icon {
+.sponsor_icon {
     height: 1vw;
     margin: 1vw;
     display: inline-block;
     vertical-align: super;
 }
 
-.emp_description {
+.sponsor_description {
     text-align: justify;
     font-family: helvetica, verdana, arial;
     font-size: 1em;
