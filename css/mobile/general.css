@@ -1,21 +1,30 @@
-@media all and (max-width: 699px){
-    #schedule_image {
-        width: 80vw;
-        margin: 2vh;
-    }
-    
-    .info_block {
-        width: 80vw;
-        padding: 10vw;
-        padding-bottom: 5vw;
-        box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        letter-spacing: .2em;
-        line-height: 1.5em;
-        color: #162D50;
-        text-align: justify;
-        font-family: helvetica, verdana, arial;
-        font-size: 4vw;
-    }
+body {
+    font-family: 'ode-font', helvetica, verdana, arial;
+}
+
+.logo {
+    min-width: 10vh;
+    max-width: 10vw;
+    background: transparent;
+    margin: 1vh;
+} /* To be used in img */
+
+.info_block {
+    width: 80vw;
+    padding: 10vw;
+    padding-bottom: 5vw;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    letter-spacing: .2em;
+    line-height: 1.5em;
+    color: #162D50;
+    text-align: justify;
+    font-family: helvetica, verdana, arial;
+    font-size: 4vw;
+}
+
+#schedule_image {
+    width: 80vw;
+    margin: 2vh;
 }

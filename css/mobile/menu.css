@@ -1,81 +1,50 @@
-@media all and (min-width: 700px) {
-    .m_logo {
-        display: none;
-    }
-    .m_menu_button {
-        display: none;
-    }
-    .m_menu_bar {
-        display: none;
-    }
-    .m_menu_option {
-        display: none;
-    }
-    .m_menu_list {
-        display: none;
-    }
-    li.m {
-        display: none;
-    }
+.menu_button {
+    background: #FFF;
+    color: #000;
+    opacity: 0.5;
+    z-index: 2;
+    position: fixed;
+    margin: 1vh;
+    padding: 1vh;
+    top: 0;
+    right: 0;
+    font-size: 8vw;
+    font-family: verdana, helvetica, arial;
 }
 
-@media all and (max-width: 699px){
-    .m_logo {
-        display: inline;
-        min-width: 10vh;
-        max-width: 10vw;
-        background: transparent;
-        margin: 1vh;
-    } /* To be used in img */
+.menu_bar {
+    background: #FFF;
+    height: 0vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-top: 0vw;
+    padding-bottom: 0vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    transition-property: padding-top, padding-bottom, height;
+    transition:  .5s ease-in-out;
+    overflow: hidden;
+}
 
-    .m_menu_button {
-        background: #FFF;
-        color: #000;
-        opacity: 0.5;
-        z-index: 2;
-        position: fixed;
-        margin: 1vh;
-        padding: 1vh;
-        top: 0;
-        right: 0;
-        font-size: 8vw;
-        font-family: Verdana;
-    }
+.menu_option {
+    color: #162D50;
+    background: #FFF;
+    font-family: 'ode-font', verdana, arial, helvetica;
+    font-size: 3vh;
+    padding: 1vh;
+    text-decoration: none;
+    display: block;
+    width: auto;
+}
 
-    .m_menu_bar {
-        background: #FFF;
-        height: 0vh;
-        width: 100vw;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 1;
-        padding-top: 0vw;
-        padding-bottom: 0vw;
-        padding-left: 5vw;
-        padding-right: 5vw;
-        transition-property: padding-top, padding-bottom, height;
-        transition:  .5s ease-in-out;
-        overflow: hidden;
-    }
+.menu_list {
+    list-style: none inside;
+    margin: 0;
+}
 
-    .m_menu_option {
-        color: #162D50;
-        background: #FFF;
-        font-family: 'ode-font', verdana, arial, helvetica;
-        font-size: 3vh;
-        padding: 1vh;
-        text-decoration: none;
-        display: block;
-        width: auto;
-    }
-
-    .m_menu_list {
-        list-style: none inside;
-        margin: 0;
-    }
-
-    li {
-        margin: 1vh;
-    }
+li {
+    margin: 1vh;
 }

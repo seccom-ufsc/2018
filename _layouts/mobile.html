@@ -7,18 +7,16 @@
             <script src="{{ "/js/mobile_menu.js" | relative_url }}"></script>
             <link rel="stylesheet" type="text/css" href="{{ "/css/variables.css" | relative_url }}">
             <link rel="stylesheet" type="text/css" href="{{ "/css/mobile/menu.css" | relative_url }}">
-            <link rel="stylesheet" type="text/css" href="{{ "/css/menu.css" | relative_url }}">
-            <link rel="stylesheet" type="text/css" href="{{ "/css/general.css" | relative_url }}">
             <link rel="stylesheet" type="text/css" href="{{ "/css/mobile/general.css" | relative_url }}">
             <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
         </head>
 
         <body>
             <header>
-                <center><img class="m_logo" src="{{ "/assets/logovsfinal.png" | relative_url }}"></center>
+                <center><img class="logo" src="{{ "/assets/logovsfinal.png" | relative_url }}"></center>
                 {% include mobile_menu.html %}
             </header>
             {{ content }}
         </body>
 
-    </html>
+</html>
