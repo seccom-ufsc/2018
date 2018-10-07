@@ -14,20 +14,20 @@ title: Patrocínio
             <div style="height: 13vh;"></div>
 
             {% for block in site.data.sponsors.diamante %}
-            <div class="emp_block">
-                <img src="{{ "/assets/diamond.svg" | relative_url }}" class="emp_icon">
-                <a href="{{ block.site }}"><img class="emp_diamante" src="{{ block.logo }}"></a>
-                <img src="{{ "/assets/diamond.svg" | relative_url }}" class="emp_icon">
-                <div class="emp_description">{{ block.release }}</div>
+            <div class="sponsor_block">
+                <img src="{{ "/assets/diamond.svg" | relative_url }}" class="sponsor_icon">
+                <a href="{{ block.site }}"><img class="sponsor_diamante" src="{{ block.logo }}"></a>
+                <img src="{{ "/assets/diamond.svg" | relative_url }}" class="sponsor_icon">
+                <div class="sponsor_description">{{ block.release }}</div>
             </div>
             {% endfor %}
 
             {% for block in site.data.sponsors.ouro %}
-            <div class="emp_block">
-                <img src="{{ "/assets/gold.svg" | relative_url }}" class="emp_icon">
-                <a href="{{ block.site }}"><img class="emp_logo" src="{{ block.logo }}"></a>
-                <img src="{{ "/assets/gold.svg" | relative_url }}" class="emp_icon">
-                <div class="emp_description">{{ block.release }}</div>
+            <div class="sponsor_block">
+                <img src="{{ "/assets/gold.svg" | relative_url }}" class="sponsor_icon">
+                <a href="{{ block.site }}"><img class="sponsor_logo" src="{{ block.logo }}"></a>
+                <img src="{{ "/assets/gold.svg" | relative_url }}" class="sponsor_icon">
+                <div class="sponsor_description">{{ block.release }}</div>
             </div>
             {% endfor %}
 
