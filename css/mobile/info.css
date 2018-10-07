@@ -1,22 +1,24 @@
 .people_info {
     vertical-align: middle;
     align: center;
+    padding: 4%;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .people_name {
     display: inline-block;
-    padding: 5vw;
+    padding: 5%;
     vertical-align: top;
-    font-size: 8vw;
+    font-size: 4vw;
+    width: 60%;
+    text-align: center;
 }
 
 .people_photo {
-    display: inline-block;
-    min-width: 15vw;
-    max-width: 15vh;
-    min-height: 15vw;
-    max-height: 15vh;
-    background-size: cover;
+    width: 25vw;
+    height: 25vw;
+    object-fit: cover;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -26,18 +28,49 @@
 .people_description {
     display: block;
     font-size: 4vw;
+    font-family: helvetica, verdana, arial;
+    text-align: justify;
+    width: 100%;
+    padding: 4vw;
+    box-sizing: border-box;
+}
+
+.event_info {
+    background: url("https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/circuits_background.jpg");
+    width: 90%;
+    margin: 0 5%;
+    padding: 5%;
+    background-size: cover;
+    box-sizing: border-box;
 }
 
 .event_name {
-    background: #fff;
-    border: 5vw solid #000;
-    padding: 3vw;
-    box-sizing: border-box;
-    width: 90vw;
+    background: #FFF;
+    padding: 3%;
     font-size: 4vw;
     color: #162d50;
+    text-align: center;
+}
+
+.event_people {
+    padding-top: 1vh;
+    font-size: 50%;
+    text-align: center;
+    display: block;
+    color: #82aade;
 }
 
 .event_description {
     padding: 5vw;
+    text-align: justify;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: helvetica, verdana, arial;
+}
+
+.event_knowledge {
+    padding-top: 1vh;
+    font-size: 80%;
+    text-align: center;
+    color: #82aade;
 }

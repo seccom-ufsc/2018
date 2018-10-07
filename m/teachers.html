@@ -2,3 +2,24 @@
 layout: mobile
 title: Conheça
 ---
+
+<!DOCTYPE html>
+    <html>
+
+        <head>
+            <link rel="stylesheet" type="text/css" href="{{ "/css/mobile/info.css" | relative_url }}">
+        </head>
+
+        <body>
+            {% for block in site.data.people.ministrantes %}
+                <div class="people_block"><br>
+                    <div class="people_info">
+                        <img class="people_photo" src="{{ block.foto }}">
+                        <div class="people_name">{{ block.nome }}</div>
+                    </div>
+                    <div class="people_description">{{ block.sobre }}</div>
+                </div>
+            {% endfor %}
+        </body>
+
+    </html>

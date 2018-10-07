@@ -11,12 +11,15 @@ title: Conheça
         </head>
 
         <body>
-            {% capture photo %}
-            {{ "/assets/circuits_background.jpg" | absolute_url }}
-            {% endcapture %}
-
-            {% include people.html url=photo name="CO" description="Descrição" %}
-
+            {% for block in site.data.people.co %}
+                <div class="people_block"><br>
+                    <div class="people_info">
+                        <img class="people_photo" src="{{ block.foto }}">
+                        <div class="people_name">{{ block.nome }}</div>
+                    </div>
+                    <div class="people_description">{{ block.sobre }}</div>
+                </div>
+            {% endfor %}
         </body>
 
     </html>

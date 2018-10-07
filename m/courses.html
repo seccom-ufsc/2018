@@ -2,3 +2,29 @@
 layout: mobile
 title: Atrações
 ---
+
+<!DOCTYPE html>
+    <html>
+
+        <head>
+            <link rel="stylesheet" type="text/css" href="{{ "/css/mobile/info.css" | relative_url }}">
+        </head>
+
+        <body>
+            {% for block in site.data.events.minicursos %}
+                <div class="event_info">
+                    <div class="event_name">
+                        {{ block.nome }}
+                        <div class="event_people">{{ block.ministrante }}</div>
+                        <div class="event_people">{{ block.duracao }}</div>
+                    </div>
+                </div>
+                <div class="event_description">
+                    {{ block.resumo }}
+                    <div class="event_knowledge">Conhecimento prévio: {{ block.conhecimento }}</div>
+                    <div class="event_knowledge">Ferramentas necessárias: {{ block.ferramentas }} (disponibilizadas pela SECCOM)</div>
+                </div>
+            {% endfor %}
+        </body>
+
+    </html>

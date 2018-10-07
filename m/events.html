@@ -11,12 +11,18 @@ title: Atrações
         </head>
 
         <body>
-            {% capture photo %}
-                {{ "/assets/circuitos_background.jpg" | absolute_url }}
-            {% endcapture %}
-
-            {% include mobile_events.html name="Outros" description="Descrição" url=photo %}
-
+            {% for block in site.data.events.outros %}
+                <div class="event_info">
+                    <div class="event_name">
+                        {{ block.nome }}
+                        <div class="event_people">{{ block.duracao }}</div>
+                    </div>
+                </div>
+                <div class="event_description">
+                    {{ block.resumo }}
+                    <div class="event_knowledge">Conhecimento prévio: {{ block.conhecimento }}</div>
+                </div>
+            {% endfor %}
         </body>
 
     </html>
