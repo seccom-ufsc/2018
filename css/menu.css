@@ -10,15 +10,16 @@
 }
 
 .menu_option {
-    width: auto;
     background: transparent;
     color: #162d50;
+    display: inline-block;
     font-family: 'Rajdhani', verdana, arial, helvetica;
     font-size: 1em;
     padding: .5em;
-    transition: background 3s;
     text-decoration: none;
-    display: inline-block;
+    transition: background 3s;
+    vertical-align: middle;
+    width: auto;
 }
 
 .menu_option:hover {
@@ -26,8 +27,7 @@
 }
 
 .menu_logo {
-    max-height: 30px;
-    height: inherit;
     display: inline-block;
+    height: 2em;
     vertical-align: middle;
 }
