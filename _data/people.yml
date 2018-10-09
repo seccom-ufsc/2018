@@ -60,9 +60,9 @@
       sobre: "Graduando em Ciência da Computação na UFSC, membro do Caravela HackerClub, evangelista de Python e Rust, defensor do software livre."
       foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/circuits_background.jpg
 
-    - nome: Tarcísio Eduardo Moreira Crocomo
-      sobre: Formado em Ciência da Computação pela UFSC, atualmente trabalha como desenvolvedor na Cellcrypt. Já teve experiência profissional com Python, C++ e TypeScript. Usa Python sempre que possível para qualquer mínima tarefa profissional ou pessoal.
-      foto: https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/circuits_background.jpg
+    - nome: "Tarcísio Eduardo Moreira Crocomo"
+      sobre: "Formado em Ciência da Computação pela UFSC, atualmente trabalha como desenvolvedor na Cellcrypt. Já teve experiência profissional com Python, C++ e TypeScript. Usa Python sempre que possível para qualquer mínima tarefa profissional ou pessoal."
+      foto: "https://raw.githubusercontent.com/seccom-ufsc/2018/master/assets/circuits_background.jpg"
 
     - nome: "Vanessa Cunha"
       sobre: "Graduanda de Sistemas de Informação. Software Tester na Nexxera. Evangelista de qualidade. Entusiasta de DevOps. Apaixonada por qualidade."
