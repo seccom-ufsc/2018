@@ -31,3 +31,9 @@
     height: 2em;
     vertical-align: middle;
 }
+
+#sympla {
+    position: absolute;
+    left: 3vw;
+    top: 1.5vh;
+}
