@@ -62,7 +62,7 @@
 
     - nome: "Tarcísio Eduardo Moreira Crocomo"
       sobre: "Formado em Ciência da Computação pela UFSC, atualmente trabalha como desenvolvedor na Cellcrypt. Já teve experiência profissional com Python, C++ e TypeScript. Usa Python sempre que possível para qualquer mínima tarefa profissional ou pessoal."
-      foto: "/2018/assets/circuits_background.jpg"
+      foto: "/2018/assets/fotos/cara-do-tarcisio.jpg"
 
     - nome: "Vanessa Cunha"
       sobre: "Graduanda de Sistemas de Informação. Software Tester na Nexxera. Evangelista de qualidade. Entusiasta de DevOps. Apaixonada por qualidade."
@@ -78,7 +78,7 @@
 
     co:
     - nome: João Paulo Taylor Ienczak Zanette
-      sobre: "Quase formado veterano da graduação em Ciência da Computação na UFSC. Maluco auto-afirmado (seu mural da loucura está disponível em <a href=\"https://github.com/jptiz\">no seu GitHub</a>), há muito tempo foi-lhe imposta a maldição de sorrateiramente oferecer minicurso de Java aos mais novos calouros do curso, mesmo querendo ensinar sobre qualquer outra linguagem (menos Pascal e Go). Adora discutir sobre linguagens e teoria da computação, xingar código alheio e brincar com programação nas horas vagas (especialmente jogos, ferramentas e GBA). PS: Não espere piadas boas vindo dele, mas espere que as tentativas sejam frequentes."
+      sobre: "Quase formado veterano da graduação em Ciência da Computação na UFSC. Maluco auto-afirmado (seu mural da loucura está disponível <a href=\"https://github.com/jptiz\">no GitHub</a>), há muito tempo foi-lhe imposta a maldição de sorrateiramente oferecer minicurso de Java aos mais novos calouros do curso, mesmo querendo ensinar sobre qualquer outra linguagem (menos Pascal e Go). Adora discutir sobre linguagens e teoria da computação, xingar código alheio e brincar com programação nas horas vagas (especialmente jogos, ferramentas e GBA). PS: Não espere piadas boas vindo dele, mas espere que as tentativas sejam frequentes."
       foto: /2018/assets/fotos/jptiz.jpg
 
     - nome: Otto Menegasso Pires
