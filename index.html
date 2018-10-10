@@ -28,15 +28,26 @@ title: SECCOM 2018
         </div>
 
         <div class="emp_block">
+            <img src="{{ "/assets/diamond.svg" | relative_url }}" class="emp_icon" style="height: 1.5vw;">
             {% for block in site.data.sponsors.diamante %}
                 <div class="emp_set">
-                    <img class="emp_diamante" src="{{ block.logo }}">
+                    <a href="{{ block.site }}"><img class="emp_diamante" src="{{ block.logo }}"></a>
                 </div>
             {% endfor %}
+            <img src="{{ "/assets/diamond.svg" | relative_url }}" class="emp_icon" style="height: 1.5vw;">
             <div class="emp_set">
+                <img src="{{ "/assets/gold.svg" | relative_url }}" class="emp_icon">
                 {% for block in site.data.sponsors.ouro %}
-                    <img class="emp_logo" src="{{ block.logo }}">
+                    <a href="{{ block.site }}"><img class="emp_logo" src="{{ block.logo }}"></a>
                 {% endfor %}
+                <img src="{{ "/assets/gold.svg" | relative_url }}" class="emp_icon">
+            </div><br>
+            <div class="emp_set">
+                <img src="{{ "/assets/silver.svg" | relative_url }}" class="emp_icon">
+                {% for block in site.data.sponsors.prata %}
+                    <a href="{{ block.site }}"><img class="emp_logo" src="{{ block.logo }}"></a>
+                {% endfor %}
+                <img src="{{ "/assets/silver.svg" | relative_url }}" class="emp_icon">
             </div>
         </div>
 

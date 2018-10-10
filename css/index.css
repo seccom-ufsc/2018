@@ -50,3 +50,10 @@
     display: inline-block;
     margin: 1vw;
 }
+
+.emp_icon {
+    height: 1vw;
+    margin: 1vw;
+    display: inline-block;
+    vertical-align: super;
+}

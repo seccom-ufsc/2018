@@ -15,9 +15,9 @@ title: Patrocínio
 
             {% for block in site.data.sponsors.diamante %}
             <div class="emp_block">
-                <img src="{{ "/assets/diamond.svg" | relative_url }}" class="emp_icon">
+                <img src="{{ "/assets/diamond.svg" | relative_url }}" class="emp_icon" style="height: 1.5vw;">
                 <a href="{{ block.site }}"><img class="emp_diamante" src="{{ block.logo }}"></a>
-                <img src="{{ "/assets/diamond.svg" | relative_url }}" class="emp_icon">
+                <img src="{{ "/assets/diamond.svg" | relative_url }}" class="emp_icon" style="height: 1.5vw;">
                 <div class="emp_description">{{ block.release }}</div>
             </div>
             {% endfor %}
