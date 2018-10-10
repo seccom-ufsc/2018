@@ -150,3 +150,10 @@
     margin: 3vw;
     display: inline-block;
 }
+
+#subscription_block {
+    padding-top: 13vh;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}

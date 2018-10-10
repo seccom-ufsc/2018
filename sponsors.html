@@ -31,6 +31,15 @@ title: Patrocínio
             </div>
             {% endfor %}
 
+            {% for block in site.data.sponsors.prata %}
+            <div class="emp_block">
+                <img src="{{ "/assets/silver.svg" | relative_url }}" class="emp_icon">
+                <a href="{{ block.site }}"><img class="emp_logo" src="{{ block.logo }}"></a>
+                <img src="{{ "/assets/silver.svg" | relative_url }}" class="emp_icon">
+                <div class="emp_description">{{ block.release }}</div>
+            </div>
+            {% endfor %}
+
         </center></body>
 
     </html>
