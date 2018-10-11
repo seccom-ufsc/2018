@@ -17,7 +17,7 @@
 
     - nome: "Tarcísio Fischer"
       sobre: "Formado em Ciência da Computação pela UFSC e atualmente buscando o título de mestre em Engenharia Mecânica. Trabalha na Engineering Simulation and Scientific Software (ESSS), onde atua como desenvolvedor software na área de simulação principalmente para a indústria de óleo e gás."
-      foto: /2018/assets/circuits_background.jpg
+      foto: /2018/assets/fotos/tarcisio-fischer.jpg
 
     - nome: "Cauê Baasch de Souza"
       sobre: "Graduando em Ciência da Computação na UFSC, membro do Caravela HackerClub, evangelista de Python e Rust, defensor do software livre."
@@ -33,7 +33,7 @@
 
     - nome: "Maicon Rafael Zatelli"
       sobre: "Maicon possui doutorado em Engenharia de Automação e Sistemas pela UFSC (2017), com período de sanduíche entre 2015 e 2016 na Universidade de Bolonha (Itália). Possui mestrado em Engenharia de Automação e Sistemas pela UFSC (2013). Ambos, o doutorado e o mestrado foram relacionados à 'sistemas multiagentes'. Possui graduação em Ciência da Computação pela Fundação Universidade Regional de Blumenal (2010), sendo o trabalho final desenvolvido na área de 'teoria dos grafos'. Seus interesses estão relacionados à sistemas multiagentes (em especial o desenvolvimento de ferramentas, plataformas, e linguagens para a programação de sistemas multiagentes e seus componentes), e à algoritmos e estruturas de dados (em especial a 'teoria dos grafos', seus algoritmos e aplicações). Possui experiência e interesse em competições de programação, em especial a International Collegiate Programming Contest (ACM-ICPC) e Multi-Agent Programming Contest (MAPC)."
-      foto: /2018/assets/circuits_background.jpg
+      foto: /2018/assets/fotos/maicon-zatelli.jpg
 
     - nome: Marcelo Anton
       sobre: "Trabalha a 10 anos com desenvolvimento e operações de sistemas focado em sistema com alto volumes de requisições e escalabilidade entrou na empresa Chaordic no ano de 2015, pouco antes da compra da empresa pela Linx S. A. Hoje atua como Head de Cloud e Tecnologia da Linx em Florianopolis, focando na apoio ao desenvolvimento dos produtos digitais da empresa Linx, vertical essa resultado das aquisições de Neemu, Chaordic, Shopback e Percycle."
@@ -54,11 +54,11 @@
     ministrantes:
     - nome: Uilian Ries
       sobre: Desenvolvedor de software, nas tecnologias C/C++ e Python. Formado no curso de análise e desenvolvimento de sistemas pela UNISINOS e técnico em informática industrial pelo SENAI-RS. Participa ativamente em projetos Open Source e atualmente desenvolve projetos ligados a internet das coisas na Khomp.
-      foto: /2018/assets/circuits_background.jpg
+      foto: /2018/assets/fotos/uilian-ries.jpg
 
     - nome: "Cauê Baasch de Souza"
       sobre: "Graduando em Ciência da Computação na UFSC, membro do Caravela HackerClub, evangelista de Python e Rust, defensor do software livre."
-      foto: /2018/assets/circuits_background.jpg
+      foto: /2018/assets/fotos/caue.jpg
 
     - nome: "Tarcísio Eduardo Moreira Crocomo"
       sobre: "Formado em Ciência da Computação pela UFSC, atualmente trabalha como desenvolvedor na Cellcrypt. Já teve experiência profissional com Python, C++ e TypeScript. Usa Python sempre que possível para qualquer mínima tarefa profissional ou pessoal."
@@ -74,7 +74,7 @@
 
     - nome: Marcos Schead
       sobre: Bacharel pela Universidade Federal de Santa Catarina (UFSC) em Ciências da Computação, Marcos Schead trabalhou três anos no Laboratório Bridge. Começou na área de qualidade e testes, dentro do projeto de prontuário eletrônico e-SUS AB. Alguns meses depois tornou-se desenvolvedor Java no projeto SISMB (Gerenciamento de Obras da Saúde) e também atuou como desenvolvedor iOS usando a linguagem Swift para a versão mobile do mesmo projeto. Um pouco antes de sair, retornou ao projeto e-SUS AB como programador Java. É desenvolvedor FrontEnd com ênfase em React na Softplan, e está alocado num projeto que visa melhorar a experiência do usuário na área judiciária brasileira. Também possui vínculo na Jungsoft, ajudando desenvolvedores em alguns projetos para fora do Brasil. Nesse último, além de React, tecnologias como React Native, Ruby on Rails e Elixir são bastante utilizadas.
-      foto: /2018/assets/circuits_background.jpg
+      foto: /2018/assets/fotos/marcos-schead.png
 
     co:
     - nome: João Paulo Taylor Ienczak Zanette
