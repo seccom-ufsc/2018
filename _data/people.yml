@@ -51,6 +51,10 @@
       sobre: "Com 19 anos de experiência em desenvolvimento de software, iniciou com linguagens como PHP, JavaScript, PL/SQL, PowerBuilder até se estabelecer na plataforma Java onde trilhou os papéis de desenvolvedor, analista e arquiteto sempre atuando com desenvolvimento Full Stack. Buscando constantemente aplicar melhores práticas de desenvolvimento e arquitetura de software, esteve envolvido nas empresas onde atuou com aplicação de conceitos de Padrões de Projeto, Automatização de Processos, Integração e Entrega Contínua (CI/CD), dentre outros. Atualmente também desenvolve nas plataformas Python e Ruby e soluções rodando em Cloud. Hoje atua como Software Engineer e busca aplicar conceitos Lean e Ágeis no processo de desenvolvimento de software."
       foto: /2018/assets/circuits_background.jpg
 
+    - nome: Rodrigo Wiethorn
+      sobre: Rodrigo Wiethorn é Administrador de Empresas pela UFSC, entusiasta da tecnologia e do darwinismo. Foi Diretor de Operações por 12 anos da Duatto Contabilidade e desde 2017 é Head of Operations Brazil do Grupo Hostinger Global. Com a missão de ajudar as pessoas a terem sucesso na internet, oferecendo inclusive host gratuito (000Webhost), a Hostinger foi apontada pela publicação The Huffington Post como uma das 5 empresas que está auxiliando no empoderamento das pessoas ao redor do mundo.
+      foto: /2018/assets/circuits_background.jpg
+
     ministrantes:
     - nome: Uilian Ries
       sobre: Desenvolvedor de software, nas tecnologias C/C++ e Python. Formado no curso de análise e desenvolvimento de sistemas pela UNISINOS e técnico em informática industrial pelo SENAI-RS. Participa ativamente em projetos Open Source e atualmente desenvolve projetos ligados a internet das coisas na Khomp.

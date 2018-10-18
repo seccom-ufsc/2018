@@ -59,6 +59,11 @@
       conhecimento: Noções básica sobre computação, servidores, computação em nuvem.
       palestrante: Isaac Felisberto de Souza
 
+    - nome: ZMOT O momento zero da verdade na hora de uma compra.
+      resumo: Whether we're shopping for corn flakes, concert tickets or a honeymoon in Paris, the Internet has changed how we decide what to buy. At Google, we call this online decision-making moment the Zero Moment of Truth, or simply, ZMOT. The ZMOT refers to the moment in the buying process when the consumer researches a product prior to purchase. A Hostinger aplicou esse conceito no seu dia-a-dia e dobrou de tamanho na operação BR de 2016 para 2017.
+      conhecimento: Nenhum.
+      palestrante: Rodrigo Wiethorn
+
     minicursos:
     - nome: Integração contínua com Gitlab
       resumo: "Após a aquisição do Github pela Microsoft houve uma crescente migração de projetos para o gitlab #movingtogitlab. Mas o que o Gitlab tem a oferecer? Este minicurso irá navegar através das principais ferramentas oferecidas pelo Gitlab, incluindo versionamento, issues, CI/CD, para além das razões do qual o fazem ser tão importante para empresas e comunidades open source."
