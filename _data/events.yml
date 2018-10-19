@@ -115,5 +115,9 @@
 
     - nome: Capture The Flag
       resumo: "Para quem gostaria de se aventurar com segurança, invasões e até mesmo engenharia reversa, há uma competição que se encaixa perfeitamente: o CTF (Capture The Flag). Elaborado em moldes semelhantes a uma maratona de programação, o CTF inclui desafios que lidam com diversos tipos de exploits de segurança, a fim de que seus participantes tanto aprendam quanto ponham seus conhecimentos de hacking a prova!"
-      conhecimento: .
+      conhecimento: Nenhum.
       duracao: 4 horas/aula.
+
+    - nome: Roda de Conversa
+      resumo: '<center><a href="https://github.com/seccom-ufsc/2018/raw/master/assets/roda-de-conversa-seccom.pdf">Texto complementar</a></center><br>Do que realmente se trata a ciência da computação é a pergunta de muitos que estão no curso, e iremos nos juntar justamente para falar sobre isso! Compartilhar experiências, fazer questionamentos e até mesmo chegar a uma conclusão. O objetivo é uma atmosfera descontraída para que todos se sintam a vontade de falar algo, aquele momento que fez abrir os olhos ou aquela dúvida sobre o que realmente está fazendo no curso.'
+      duracao: 1 hora/aula.
