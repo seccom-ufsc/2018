@@ -62,6 +62,18 @@ layout: default
                         </div>
                     </div>
                 {% endfor %}
+                {% for block in site.data.events.pdfs %}
+                    <div class="event_block" style="background-image: url({{ "/assets/circuits_background.jpg" | relative_url }});">
+                        <div class="event_name">
+                            {{ block.nome }}
+                            <div class="event_people">{{ block.duracao }}</div>
+                        </div>
+                        <div class="event_description">
+                            <a href="{{ block.pdf }}">Texto complementar</a><br>
+                            {{ block.resumo }}
+                        </div>
+                    </div>
+                {% endfor %}
             </div>
 
             </center></body>
